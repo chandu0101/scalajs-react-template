@@ -64,7 +64,6 @@ object AppRouter {
       <.p("This is the root page. Click on a link below to view routes within this page."),
       <.div(router.link(AppPage.hello)("The 'hello' route", ^.cls := "hello")),
       <.div(router.link(AppPage.name("bob"))("Name('bob')", ^.cls := "n1")),
-      <.a(^.href := AppPage.name("bob").path.abs(baseUrl2).value )("fuck it" ),
         <.div(router.link(AppPage.name("crap"))("Name('crap')", ^.cls := "n2")))
     ).build
 
@@ -73,7 +72,7 @@ object AppRouter {
     .render(_ =>
       <.div(
         <.h3("Hello there!" ),
-        <.a(^.href := AppPage.name("bob").path.abs(baseUrl2).value )("fuck it" )
+        <.a(^.href := AppPage.name("bob").path.abs(baseUrl).value )("fuck it" )
       )
       )
     .buildU
@@ -90,8 +89,7 @@ object AppRouter {
     .build
 
 
-  val baseUrl2 = BaseUrl.fromWindow / "scalajs-react-template"
-  val C = AppPage.router(BaseUrl("http://localhost:63342/scalajs-react-template"))
-//  val C = AppPage.router(BaseUrl("/scalajs-react-temaplate"))
+  val baseUrl = BaseUrl.fromWindow / "scalajs-react-template"
+  val C = AppPage.router(baseUrl)
 
 }
