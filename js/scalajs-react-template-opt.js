@@ -3080,7 +3080,7 @@ ScalaJS.c.Lcom_chandu0101_router_AppRouter$ = (function() {
   this.HelloComponent$1 = null;
   this.NameComponent$1 = null;
   this.PersonComponent$1 = null;
-  this.baseUrl2$1 = null;
+  this.baseUrl$1 = null;
   this.C$1 = null
 });
 ScalaJS.c.Lcom_chandu0101_router_AppRouter$.prototype = new ScalaJS.h.O();
@@ -3097,9 +3097,9 @@ ScalaJS.c.Lcom_chandu0101_router_AppRouter$.prototype.init___ = (function() {
   this.HelloComponent$1 = new ScalaJS.c.Ljapgolly_scalajs_react_ReactComponentB$AnchorN().init___Ljapgolly_scalajs_react_ReactComponentB(c).buildU__s_Predef$$eq$colon$eq__Ljapgolly_scalajs_react_package$ReactComponentC$ConstProps(ScalaJS.m.s_Predef().scala$Predef$$singleton$und$eq$colon$eq$f);
   this.NameComponent$1 = ScalaJS.as.Ljapgolly_scalajs_react_package$ReactComponentC$ReqProps(ScalaJS.m.Ljapgolly_scalajs_react_ReactComponentB().defaultDomTypeAndProps__Ljapgolly_scalajs_react_ReactComponentB__Ljapgolly_scalajs_react_ReactComponentB$Builder(new ScalaJS.c.Ljapgolly_scalajs_react_ReactComponentB$P().init___T("Name").render__F1__Ljapgolly_scalajs_react_ReactComponentB(new ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$9().init___())).build__O());
   this.PersonComponent$1 = ScalaJS.as.Ljapgolly_scalajs_react_package$ReactComponentC$ReqProps(ScalaJS.m.Ljapgolly_scalajs_react_ReactComponentB().defaultDomTypeAndProps__Ljapgolly_scalajs_react_ReactComponentB__Ljapgolly_scalajs_react_ReactComponentB$Builder(new ScalaJS.c.Ljapgolly_scalajs_react_ReactComponentB$P().init___T("Person by ID").render__F1__Ljapgolly_scalajs_react_ReactComponentB(new ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$10().init___())).build__O());
-  this.baseUrl2$1 = ScalaJS.m.Ljapgolly_scalajs_react_extras_router_BaseUrl().fromWindow__Ljapgolly_scalajs_react_extras_router_BaseUrl().$$div__T__Ljapgolly_scalajs_react_extras_router_BaseUrl("scalajs-react-template");
+  this.baseUrl$1 = ScalaJS.m.Ljapgolly_scalajs_react_extras_router_BaseUrl().fromWindow__Ljapgolly_scalajs_react_extras_router_BaseUrl().$$div__T__Ljapgolly_scalajs_react_extras_router_BaseUrl("scalajs-react-template");
   var this$7 = ScalaJS.m.Lcom_chandu0101_router_AppRouter$AppPage();
-  var base = new ScalaJS.c.Ljapgolly_scalajs_react_extras_router_BaseUrl().init___T("http://localhost:63342/scalajs-react-template");
+  var base = this.baseUrl$1;
   this.C$1 = ScalaJS.i.Ljapgolly_scalajs_react_extras_router_Page$class__router__Ljapgolly_scalajs_react_extras_router_Page__Ljapgolly_scalajs_react_extras_router_BaseUrl__Ljapgolly_scalajs_react_package$ReactComponentC$ConstProps(this$7, base);
   return this
 });
@@ -19323,37 +19323,30 @@ ScalaJS.h.Lcom_chandu0101_router_AppRouter$$anonfun$7 = (function() {
 ScalaJS.h.Lcom_chandu0101_router_AppRouter$$anonfun$7.prototype = ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$7.prototype;
 ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$7.prototype.apply__Ljapgolly_scalajs_react_extras_router_Router__Ljapgolly_scalajs_react_ReactElement = (function(router) {
   ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up();
-  var jsx$16 = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$Tags()).div$1;
-  var jsx$15 = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$Tags()).h2$1.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_ReactTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([(ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), new ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$ReactNodeFrag().init___Ljapgolly_scalajs_react_ReactNode((ScalaJS.m.Ljapgolly_scalajs_react_package(), "Router Demonstration")))]));
-  var jsx$14 = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$Tags()).p$1.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_ReactTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([(ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), new ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$ReactNodeFrag().init___Ljapgolly_scalajs_react_ReactNode((ScalaJS.m.Ljapgolly_scalajs_react_package(), "This is the root page. Click on a link below to view routes within this page.")))]));
-  var jsx$13 = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$Tags()).div$1;
-  var jsx$12 = router.link__Ljapgolly_scalajs_react_extras_router_ApprovedPath__Ljapgolly_scalajs_react_vdom_ReactTag(ScalaJS.m.Lcom_chandu0101_router_AppRouter$AppPage().hello$1);
+  var jsx$14 = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$Tags()).div$1;
+  var jsx$13 = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$Tags()).h2$1.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_ReactTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([(ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), new ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$ReactNodeFrag().init___Ljapgolly_scalajs_react_ReactNode((ScalaJS.m.Ljapgolly_scalajs_react_package(), "Router Demonstration")))]));
+  var jsx$12 = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$Tags()).p$1.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_ReactTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([(ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), new ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$ReactNodeFrag().init___Ljapgolly_scalajs_react_ReactNode((ScalaJS.m.Ljapgolly_scalajs_react_package(), "This is the root page. Click on a link below to view routes within this page.")))]));
+  var jsx$11 = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$Tags()).div$1;
+  var jsx$10 = router.link__Ljapgolly_scalajs_react_extras_router_ApprovedPath__Ljapgolly_scalajs_react_vdom_ReactTag(ScalaJS.m.Lcom_chandu0101_router_AppRouter$AppPage().hello$1);
   ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up();
-  var jsx$11 = new ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$ReactNodeFrag().init___Ljapgolly_scalajs_react_ReactNode((ScalaJS.m.Ljapgolly_scalajs_react_package(), "The 'hello' route"));
+  var jsx$9 = new ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$ReactNodeFrag().init___Ljapgolly_scalajs_react_ReactNode((ScalaJS.m.Ljapgolly_scalajs_react_package(), "The 'hello' route"));
   var this$13 = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$Attrs()).cls$1;
   var ev = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_Scalatags().stringAttrX$1);
-  var jsx$10 = jsx$13.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_ReactTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([jsx$12.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_ReactTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([jsx$11, new ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$AttrPair().init___Ljapgolly_scalajs_react_vdom_Attr__O__Ljapgolly_scalajs_react_vdom_Scalatags$AttrValue(this$13, "hello", ev)]))]));
-  var jsx$9 = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$Tags()).div$1;
-  var jsx$8 = router.link__Ljapgolly_scalajs_react_extras_router_ApprovedPath__Ljapgolly_scalajs_react_vdom_ReactTag(ScalaJS.as.Ljapgolly_scalajs_react_extras_router_ApprovedPath(ScalaJS.m.Lcom_chandu0101_router_AppRouter$AppPage().name$1.apply__O__O("bob")));
+  var jsx$8 = jsx$11.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_ReactTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([jsx$10.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_ReactTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([jsx$9, new ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$AttrPair().init___Ljapgolly_scalajs_react_vdom_Attr__O__Ljapgolly_scalajs_react_vdom_Scalatags$AttrValue(this$13, "hello", ev)]))]));
+  var jsx$7 = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$Tags()).div$1;
+  var jsx$6 = router.link__Ljapgolly_scalajs_react_extras_router_ApprovedPath__Ljapgolly_scalajs_react_vdom_ReactTag(ScalaJS.as.Ljapgolly_scalajs_react_extras_router_ApprovedPath(ScalaJS.m.Lcom_chandu0101_router_AppRouter$AppPage().name$1.apply__O__O("bob")));
   ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up();
-  var jsx$7 = new ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$ReactNodeFrag().init___Ljapgolly_scalajs_react_ReactNode((ScalaJS.m.Ljapgolly_scalajs_react_package(), "Name('bob')"));
+  var jsx$5 = new ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$ReactNodeFrag().init___Ljapgolly_scalajs_react_ReactNode((ScalaJS.m.Ljapgolly_scalajs_react_package(), "Name('bob')"));
   var this$19 = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$Attrs()).cls$1;
   var ev$1 = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_Scalatags().stringAttrX$1);
-  var jsx$6 = jsx$9.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_ReactTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([jsx$8.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_ReactTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([jsx$7, new ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$AttrPair().init___Ljapgolly_scalajs_react_vdom_Attr__O__Ljapgolly_scalajs_react_vdom_Scalatags$AttrValue(this$19, "n1", ev$1)]))]));
-  var jsx$5 = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$Tags()).a$1;
-  var this$24 = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$Attrs()).href$1;
-  var this$22 = ScalaJS.as.Ljapgolly_scalajs_react_extras_router_DynamicLocation(ScalaJS.m.Lcom_chandu0101_router_AppRouter$AppPage().name$1.apply__O__O("bob")).path$1;
-  var base = ScalaJS.m.Lcom_chandu0101_router_AppRouter().baseUrl2$1;
-  var v = base.$$div__Ljapgolly_scalajs_react_extras_router_Path__Ljapgolly_scalajs_react_extras_router_AbsUrl(this$22).value$1;
-  var ev$2 = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_Scalatags().stringAttrX$1);
-  var jsx$4 = jsx$5.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_ReactTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([new ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$AttrPair().init___Ljapgolly_scalajs_react_vdom_Attr__O__Ljapgolly_scalajs_react_vdom_Scalatags$AttrValue(this$24, v, ev$2)])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_ReactTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([(ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), new ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$ReactNodeFrag().init___Ljapgolly_scalajs_react_ReactNode((ScalaJS.m.Ljapgolly_scalajs_react_package(), "fuck it")))]));
+  var jsx$4 = jsx$7.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_ReactTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([jsx$6.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_ReactTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([jsx$5, new ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$AttrPair().init___Ljapgolly_scalajs_react_vdom_Attr__O__Ljapgolly_scalajs_react_vdom_Scalatags$AttrValue(this$19, "n1", ev$1)]))]));
   var jsx$3 = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$Tags()).div$1;
   var jsx$2 = router.link__Ljapgolly_scalajs_react_extras_router_ApprovedPath__Ljapgolly_scalajs_react_vdom_ReactTag(ScalaJS.as.Ljapgolly_scalajs_react_extras_router_ApprovedPath(ScalaJS.m.Lcom_chandu0101_router_AppRouter$AppPage().name$1.apply__O__O("crap")));
   ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up();
   var jsx$1 = new ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$ReactNodeFrag().init___Ljapgolly_scalajs_react_ReactNode((ScalaJS.m.Ljapgolly_scalajs_react_package(), "Name('crap')"));
-  var this$32 = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$Attrs()).cls$1;
-  var ev$3 = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_Scalatags().stringAttrX$1);
-  var t = jsx$16.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_ReactTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([jsx$15, jsx$14, jsx$10, jsx$6, jsx$4, jsx$3.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_ReactTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([jsx$2.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_ReactTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([jsx$1, new ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$AttrPair().init___Ljapgolly_scalajs_react_vdom_Attr__O__Ljapgolly_scalajs_react_vdom_Scalatags$AttrValue(this$32, "n2", ev$3)]))]))]));
+  var this$25 = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$Attrs()).cls$1;
+  var ev$2 = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_Scalatags().stringAttrX$1);
+  var t = jsx$14.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_ReactTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([jsx$13, jsx$12, jsx$8, jsx$4, jsx$3.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_ReactTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([jsx$2.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_ReactTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([jsx$1, new ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$AttrPair().init___Ljapgolly_scalajs_react_vdom_Attr__O__Ljapgolly_scalajs_react_vdom_Scalatags$AttrValue(this$25, "n2", ev$2)]))]))]));
   return t.render__Ljapgolly_scalajs_react_ReactElement()
 });
 ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$7.prototype.apply__O__O = (function(v1) {
@@ -19403,7 +19396,7 @@ ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$8.prototype.apply__sr_BoxedU
   var jsx$1 = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$Tags()).a$1;
   var this$9 = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$Attrs()).href$1;
   var this$7 = ScalaJS.as.Ljapgolly_scalajs_react_extras_router_DynamicLocation(ScalaJS.m.Lcom_chandu0101_router_AppRouter$AppPage().name$1.apply__O__O("bob")).path$1;
-  var base = ScalaJS.m.Lcom_chandu0101_router_AppRouter().baseUrl2$1;
+  var base = ScalaJS.m.Lcom_chandu0101_router_AppRouter().baseUrl$1;
   var v = base.$$div__Ljapgolly_scalajs_react_extras_router_Path__Ljapgolly_scalajs_react_extras_router_AbsUrl(this$7).value$1;
   var ev = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_Scalatags().stringAttrX$1);
   var t = jsx$3.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_ReactTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([jsx$2, jsx$1.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_ReactTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([new ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$AttrPair().init___Ljapgolly_scalajs_react_vdom_Attr__O__Ljapgolly_scalajs_react_vdom_Scalatags$AttrValue(this$9, v, ev)])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_ReactTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([(ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), new ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$ReactNodeFrag().init___Ljapgolly_scalajs_react_ReactNode((ScalaJS.m.Ljapgolly_scalajs_react_package(), "fuck it")))]))]));
