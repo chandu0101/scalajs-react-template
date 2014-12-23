@@ -13,4 +13,5 @@ import scala.scalajs.js.annotation.JSExport
 object ReactApp  extends JSApp{
   @JSExport
   override def main(): Unit = React.render(AppRouter.C() ,dom.document.body)
+//  override def main(): Unit =  dom.document.body.innerHTML = " fuck "
 }
