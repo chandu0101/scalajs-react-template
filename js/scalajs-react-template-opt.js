@@ -802,6 +802,13 @@ ScalaJS.i.Ljapgolly_scalajs_react_extras_router_Page$class__l$1__Ljapgolly_scala
 ScalaJS.i.Ljapgolly_scalajs_react_extras_router_Page$class__router__Ljapgolly_scalajs_react_extras_router_Page__Ljapgolly_scalajs_react_extras_router_BaseUrl__Ljapgolly_scalajs_react_package$ReactComponentC$ConstProps = (function($$this, base) {
   return ScalaJS.m.Ljapgolly_scalajs_react_extras_router_Router().component__Ljapgolly_scalajs_react_extras_router_Router__Ljapgolly_scalajs_react_package$ReactComponentC$ConstProps(ScalaJS.i.Ljapgolly_scalajs_react_extras_router_Page$class__routingEngine__Ljapgolly_scalajs_react_extras_router_Page__Ljapgolly_scalajs_react_extras_router_BaseUrl__Ljapgolly_scalajs_react_extras_router_Router($$this, base))
 });
+ScalaJS.i.Ljapgolly_scalajs_react_extras_router_Page$class__dynLink__Ljapgolly_scalajs_react_extras_router_Page__F1__F1 = (function($$this, path) {
+  return new ScalaJS.c.sjsr_AnonFunction1().init___sjs_js_Function1((function(path$3) {
+    return (function(t$2) {
+      return new ScalaJS.c.Ljapgolly_scalajs_react_extras_router_DynamicLocation().init___Ljapgolly_scalajs_react_extras_router_Path(new ScalaJS.c.Ljapgolly_scalajs_react_extras_router_Path().init___T(ScalaJS.as.T(path$3.apply__O__O(t$2))))
+    })
+  })(path))
+});
 ScalaJS.i.Ljapgolly_scalajs_react_extras_router_Page$class__redirect__Ljapgolly_scalajs_react_extras_router_Page__Ljapgolly_scalajs_react_extras_router_Location__Ljapgolly_scalajs_react_extras_router_Redirect$Method__F1 = (function($$this, to, method) {
   return new ScalaJS.c.sjsr_AnonFunction1().init___sjs_js_Function1((function(arg$outer, to$1, method$1) {
     return (function(x$6$2) {
@@ -844,6 +851,12 @@ ScalaJS.i.Ljapgolly_scalajs_react_extras_router_Page$class__japgolly$scalajs$rea
   var bitmap$0 = new ScalaJS.c.sr_VolatileByteRef().init___B(0);
   return ScalaJS.i.Ljapgolly_scalajs_react_extras_router_Page$class__l$1__Ljapgolly_scalajs_react_extras_router_Page__Ljapgolly_scalajs_react_extras_router_Path__F1__sr_ObjectRef__sr_VolatileByteRef__Ljapgolly_scalajs_react_extras_router_Location($$this, path, render, l$lzy, bitmap$0)
 });
+ScalaJS.i.Ljapgolly_scalajs_react_extras_router_Page$class__matchNumber__Ljapgolly_scalajs_react_extras_router_Page__s_util_matching_Regex = (function($$this) {
+  var this$2 = new ScalaJS.c.sci_StringOps().init___T("^(\\d+)$");
+  var groupNames = ScalaJS.m.sci_Nil();
+  var $$this$1 = this$2.repr$1;
+  return new ScalaJS.c.s_util_matching_Regex().init___T__sc_Seq($$this$1, groupNames)
+});
 ScalaJS.i.Ljapgolly_scalajs_react_extras_router_Page$class__parser__Ljapgolly_scalajs_react_extras_router_Page__s_PartialFunction__Ljapgolly_scalajs_react_extras_router_Page$DynB = (function($$this, pf) {
   var this$1 = pf.lift__F1();
   var g = new ScalaJS.c.sjsr_AnonFunction1().init___sjs_js_Function1((function(x$7$2) {
@@ -851,6 +864,14 @@ ScalaJS.i.Ljapgolly_scalajs_react_extras_router_Page$class__parser__Ljapgolly_sc
     return x$7.value$1
   }));
   return new ScalaJS.c.Ljapgolly_scalajs_react_extras_router_Page$DynB().init___Ljapgolly_scalajs_react_extras_router_Page__F1($$this, ScalaJS.i.s_Function1$class__compose__F1__F1__F1(this$1, g))
+});
+ScalaJS.i.Ljapgolly_scalajs_react_extras_router_Page$class__render__Ljapgolly_scalajs_react_extras_router_Page__F1__F1 = (function($$this, render) {
+  return new ScalaJS.c.sjsr_AnonFunction1().init___sjs_js_Function1((function(arg$outer, render$2) {
+    return (function(path$2) {
+      var path = ScalaJS.as.Ljapgolly_scalajs_react_extras_router_Path(path$2);
+      return ScalaJS.i.Ljapgolly_scalajs_react_extras_router_Page$class__japgolly$scalajs$react$extras$router$Page$$mkloc__Ljapgolly_scalajs_react_extras_router_Page__Ljapgolly_scalajs_react_extras_router_Path__F1__Ljapgolly_scalajs_react_extras_router_Location(arg$outer, path, render$2)
+    })
+  })($$this, render))
 });
 ScalaJS.i.Ljapgolly_scalajs_react_extras_router_Page$class__redirection__Ljapgolly_scalajs_react_extras_router_Page__T__Lscalaz_$bslash$div__Ljapgolly_scalajs_react_extras_router_Redirect$Method__Ljapgolly_scalajs_react_extras_router_Page$StaticRoute = (function($$this, from, to, method) {
   return new ScalaJS.c.Ljapgolly_scalajs_react_extras_router_Page$StaticRoute().init___Ljapgolly_scalajs_react_extras_router_Page__Ljapgolly_scalajs_react_extras_router_Path__Ljapgolly_scalajs_react_extras_router_RouteAction($$this, new ScalaJS.c.Ljapgolly_scalajs_react_extras_router_Path().init___T(from), new ScalaJS.c.Ljapgolly_scalajs_react_extras_router_Redirect().init___Lscalaz_$bslash$div__Ljapgolly_scalajs_react_extras_router_Redirect$Method(to, method))
@@ -2880,6 +2901,9 @@ ScalaJS.i.sjsr_RuntimeString$class__indexOf__sjsr_RuntimeString__T__I = (functio
 ScalaJS.i.sjsr_RuntimeString$class__startsWith__sjsr_RuntimeString__T__I__Z = (function($$this, prefix, toffset) {
   return (prefix === $$this["substring"](toffset, ScalaJS.i.sjsr_RuntimeString$class__length__sjsr_RuntimeString__I(prefix)))
 });
+ScalaJS.i.sjsr_RuntimeString$class__contains__sjsr_RuntimeString__jl_CharSequence__Z = (function($$this, s) {
+  return ((ScalaJS.uD($$this["indexOf"](ScalaJS.objectToString(s))) | 0) !== (-1))
+});
 ScalaJS.i.sjsr_RuntimeString$class__indexOf__sjsr_RuntimeString__I__I__I = (function($$this, ch, fromIndex) {
   return ScalaJS.i.sjsr_RuntimeString$class__indexOf__sjsr_RuntimeString__T__I__I(ScalaJS.as.T($$this), ScalaJS.m.sjsr_RuntimeString().scala$scalajs$runtime$RuntimeString$$fromCodePoint__I__T(ch), fromIndex)
 });
@@ -3054,6 +3078,9 @@ ScalaJS.c.Lcom_chandu0101_router_AppRouter$ = (function() {
   ScalaJS.c.O.call(this);
   this.RootComponent$1 = null;
   this.HelloComponent$1 = null;
+  this.NameComponent$1 = null;
+  this.PersonComponent$1 = null;
+  this.baseUrl2$1 = null;
   this.C$1 = null
 });
 ScalaJS.c.Lcom_chandu0101_router_AppRouter$.prototype = new ScalaJS.h.O();
@@ -3065,12 +3092,15 @@ ScalaJS.h.Lcom_chandu0101_router_AppRouter$ = (function() {
 ScalaJS.h.Lcom_chandu0101_router_AppRouter$.prototype = ScalaJS.c.Lcom_chandu0101_router_AppRouter$.prototype;
 ScalaJS.c.Lcom_chandu0101_router_AppRouter$.prototype.init___ = (function() {
   ScalaJS.n.Lcom_chandu0101_router_AppRouter = this;
-  this.RootComponent$1 = ScalaJS.as.Ljapgolly_scalajs_react_package$ReactComponentC$ReqProps(ScalaJS.m.Ljapgolly_scalajs_react_ReactComponentB().defaultDomTypeAndProps__Ljapgolly_scalajs_react_ReactComponentB__Ljapgolly_scalajs_react_ReactComponentB$Builder(new ScalaJS.c.Ljapgolly_scalajs_react_ReactComponentB$P().init___T("Root").render__F1__Ljapgolly_scalajs_react_ReactComponentB(new ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$1().init___())).build__O());
-  var c = new ScalaJS.c.Ljapgolly_scalajs_react_ReactComponentB$P().init___T("Hello").render__F1__Ljapgolly_scalajs_react_ReactComponentB(new ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$2().init___());
+  this.RootComponent$1 = ScalaJS.as.Ljapgolly_scalajs_react_package$ReactComponentC$ReqProps(ScalaJS.m.Ljapgolly_scalajs_react_ReactComponentB().defaultDomTypeAndProps__Ljapgolly_scalajs_react_ReactComponentB__Ljapgolly_scalajs_react_ReactComponentB$Builder(new ScalaJS.c.Ljapgolly_scalajs_react_ReactComponentB$P().init___T("Root").render__F1__Ljapgolly_scalajs_react_ReactComponentB(new ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$7().init___())).build__O());
+  var c = new ScalaJS.c.Ljapgolly_scalajs_react_ReactComponentB$P().init___T("Hello").render__F1__Ljapgolly_scalajs_react_ReactComponentB(new ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$8().init___());
   this.HelloComponent$1 = new ScalaJS.c.Ljapgolly_scalajs_react_ReactComponentB$AnchorN().init___Ljapgolly_scalajs_react_ReactComponentB(c).buildU__s_Predef$$eq$colon$eq__Ljapgolly_scalajs_react_package$ReactComponentC$ConstProps(ScalaJS.m.s_Predef().scala$Predef$$singleton$und$eq$colon$eq$f);
-  var this$5 = ScalaJS.m.Lcom_chandu0101_router_AppRouter$AppPage();
-  var base = ScalaJS.m.Ljapgolly_scalajs_react_extras_router_BaseUrl().fromWindow__Ljapgolly_scalajs_react_extras_router_BaseUrl().$$div__T__Ljapgolly_scalajs_react_extras_router_BaseUrl("scalajs-react-template");
-  this.C$1 = ScalaJS.i.Ljapgolly_scalajs_react_extras_router_Page$class__router__Ljapgolly_scalajs_react_extras_router_Page__Ljapgolly_scalajs_react_extras_router_BaseUrl__Ljapgolly_scalajs_react_package$ReactComponentC$ConstProps(this$5, base);
+  this.NameComponent$1 = ScalaJS.as.Ljapgolly_scalajs_react_package$ReactComponentC$ReqProps(ScalaJS.m.Ljapgolly_scalajs_react_ReactComponentB().defaultDomTypeAndProps__Ljapgolly_scalajs_react_ReactComponentB__Ljapgolly_scalajs_react_ReactComponentB$Builder(new ScalaJS.c.Ljapgolly_scalajs_react_ReactComponentB$P().init___T("Name").render__F1__Ljapgolly_scalajs_react_ReactComponentB(new ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$9().init___())).build__O());
+  this.PersonComponent$1 = ScalaJS.as.Ljapgolly_scalajs_react_package$ReactComponentC$ReqProps(ScalaJS.m.Ljapgolly_scalajs_react_ReactComponentB().defaultDomTypeAndProps__Ljapgolly_scalajs_react_ReactComponentB__Ljapgolly_scalajs_react_ReactComponentB$Builder(new ScalaJS.c.Ljapgolly_scalajs_react_ReactComponentB$P().init___T("Person by ID").render__F1__Ljapgolly_scalajs_react_ReactComponentB(new ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$10().init___())).build__O());
+  this.baseUrl2$1 = ScalaJS.m.Ljapgolly_scalajs_react_extras_router_BaseUrl().fromWindow__Ljapgolly_scalajs_react_extras_router_BaseUrl().$$div__T__Ljapgolly_scalajs_react_extras_router_BaseUrl("scalajs-react-template");
+  var this$7 = ScalaJS.m.Lcom_chandu0101_router_AppRouter$AppPage();
+  var base = new ScalaJS.c.Ljapgolly_scalajs_react_extras_router_BaseUrl().init___T("http://localhost:63342/scalajs-react-template");
+  this.C$1 = ScalaJS.i.Ljapgolly_scalajs_react_extras_router_Page$class__router__Ljapgolly_scalajs_react_extras_router_Page__Ljapgolly_scalajs_react_extras_router_BaseUrl__Ljapgolly_scalajs_react_package$ReactComponentC$ConstProps(this$7, base);
   return this
 });
 ScalaJS.is.Lcom_chandu0101_router_AppRouter$ = (function(obj) {
@@ -3104,6 +3134,10 @@ ScalaJS.c.Lcom_chandu0101_router_AppRouter$AppPage$ = (function() {
   ScalaJS.c.O.call(this);
   this.root$1 = null;
   this.hello$1 = null;
+  this.com$chandu0101$router$AppRouter$AppPage$$namePathMatch$1 = null;
+  this.name$1 = null;
+  this.com$chandu0101$router$AppRouter$AppPage$$personPathMatch$1 = null;
+  this.person$1 = null;
   this.notFound$1 = null;
   this.matchNumber$1 = null;
   this.japgolly$scalajs$react$extras$router$Page$$staticRoutes$1 = null;
@@ -3140,19 +3174,95 @@ ScalaJS.c.Lcom_chandu0101_router_AppRouter$AppPage$.prototype.init___ = (functio
       return (ScalaJS.as.Ljapgolly_scalajs_react_extras_router_Router(x$2$2), c$2$1.apply__sc_Seq__Ljapgolly_scalajs_react_ReactComponentU(ScalaJS.m.sci_Nil()))
     })
   })(c$2));
-  var u$1 = ScalaJS.i.Ljapgolly_scalajs_react_extras_router_Page$class__location__Ljapgolly_scalajs_react_extras_router_Page__T__F1__Ljapgolly_scalajs_react_extras_router_Page$StaticRoute(this, "/hello", render);
+  var u$1 = ScalaJS.i.Ljapgolly_scalajs_react_extras_router_Page$class__location__Ljapgolly_scalajs_react_extras_router_Page__T__F1__Ljapgolly_scalajs_react_extras_router_Page$StaticRoute(this, "#hello", render);
   this.hello$1 = ScalaJS.as.Ljapgolly_scalajs_react_extras_router_Location(ScalaJS.i.Ljapgolly_scalajs_react_extras_router_Page$class__register__Ljapgolly_scalajs_react_extras_router_Page__Ljapgolly_scalajs_react_extras_router_Page$StaticRoute__Ljapgolly_scalajs_react_extras_router_RouteAction(this, u$1));
   var a = this.hello$1;
   var to = new ScalaJS.c.Lscalaz_$bslash$div$minus().init___O(a);
   var method = ScalaJS.m.Ljapgolly_scalajs_react_extras_router_Redirect$Replace();
-  var u$2 = ScalaJS.i.Ljapgolly_scalajs_react_extras_router_Page$class__redirection__Ljapgolly_scalajs_react_extras_router_Page__T__Lscalaz_$bslash$div__Ljapgolly_scalajs_react_extras_router_Redirect$Method__Ljapgolly_scalajs_react_extras_router_Page$StaticRoute(this, "/hey", to, method);
+  var u$2 = ScalaJS.i.Ljapgolly_scalajs_react_extras_router_Page$class__redirection__Ljapgolly_scalajs_react_extras_router_Page__T__Lscalaz_$bslash$div__Ljapgolly_scalajs_react_extras_router_Redirect$Method__Ljapgolly_scalajs_react_extras_router_Page$StaticRoute(this, "#hey", to, method);
   ScalaJS.i.Ljapgolly_scalajs_react_extras_router_Page$class__register__Ljapgolly_scalajs_react_extras_router_Page__Ljapgolly_scalajs_react_extras_router_Page$StaticRoute__Ljapgolly_scalajs_react_extras_router_RouteAction(this, u$2);
-  var u$3 = ScalaJS.i.Ljapgolly_scalajs_react_extras_router_Page$class__removeTrailingSlashes__Ljapgolly_scalajs_react_extras_router_Page__Ljapgolly_scalajs_react_extras_router_Page$DynamicRoute(this);
+  var this$2 = new ScalaJS.c.sci_StringOps().init___T("^#name/(.+)$");
+  var groupNames = ScalaJS.m.sci_Nil();
+  var $$this = this$2.repr$1;
+  this.com$chandu0101$router$AppRouter$AppPage$$namePathMatch$1 = new ScalaJS.c.s_util_matching_Regex().init___T__sc_Seq($$this, groupNames);
+  var pf = new ScalaJS.c.Lcom_chandu0101_router_AppRouter$AppPage$$anonfun$1().init___();
+  var u$3 = ScalaJS.i.Ljapgolly_scalajs_react_extras_router_Page$class__parser__Ljapgolly_scalajs_react_extras_router_Page__s_PartialFunction__Ljapgolly_scalajs_react_extras_router_Page$DynB(this, pf).location__F1__Ljapgolly_scalajs_react_extras_router_Page$DynamicRoute(new ScalaJS.c.sjsr_AnonFunction1().init___sjs_js_Function1((function(n$2) {
+    var n = ScalaJS.as.T(n$2);
+    ScalaJS.m.Lcom_chandu0101_router_AppRouter$AppPage();
+    var a$1 = ScalaJS.m.Lcom_chandu0101_router_AppRouter().NameComponent$1.apply__O__sc_Seq__Ljapgolly_scalajs_react_ReactComponentU(n, new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([]));
+    var evidence$1 = ScalaJS.m.s_Predef().singleton$und$less$colon$less$2;
+    return new ScalaJS.c.sjsr_AnonFunction1().init___sjs_js_Function1((function(a$1$1, evidence$1$1) {
+      return (function(x$3$2) {
+        return (ScalaJS.as.Ljapgolly_scalajs_react_extras_router_Router(x$3$2), evidence$1$1.apply__O__O(a$1$1))
+      })
+    })(a$1, evidence$1))
+  })));
   ScalaJS.i.Ljapgolly_scalajs_react_extras_router_Page$class__register__Ljapgolly_scalajs_react_extras_router_Page__Ljapgolly_scalajs_react_extras_router_Page$DynamicRoute__V(this, u$3);
-  var to$1 = this.root$1;
-  var method$1 = ScalaJS.m.Ljapgolly_scalajs_react_extras_router_Redirect$Replace();
-  this.notFound$1 = ScalaJS.i.Ljapgolly_scalajs_react_extras_router_Page$class__redirect__Ljapgolly_scalajs_react_extras_router_Page__Ljapgolly_scalajs_react_extras_router_Location__Ljapgolly_scalajs_react_extras_router_Redirect$Method__F1(this, to$1, method$1);
+  var path = new ScalaJS.c.sjsr_AnonFunction1().init___sjs_js_Function1((function(n$2$1) {
+    var n$1 = ScalaJS.as.T(n$2$1);
+    return new ScalaJS.c.s_StringContext().init___sc_Seq(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array(["#name/", ""])).s__sc_Seq__T(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([n$1]))
+  }));
+  this.name$1 = ScalaJS.i.Ljapgolly_scalajs_react_extras_router_Page$class__dynLink__Ljapgolly_scalajs_react_extras_router_Page__F1__F1(this, path);
+  var this$6 = new ScalaJS.c.sci_StringOps().init___T("^/person/(.+)$");
+  var groupNames$1 = ScalaJS.m.sci_Nil();
+  var $$this$1 = this$6.repr$1;
+  this.com$chandu0101$router$AppRouter$AppPage$$personPathMatch$1 = new ScalaJS.c.s_util_matching_Regex().init___T__sc_Seq($$this$1, groupNames$1);
+  var pf$1 = new ScalaJS.c.Lcom_chandu0101_router_AppRouter$AppPage$$anonfun$2().init___();
+  var u$4 = ScalaJS.i.Ljapgolly_scalajs_react_extras_router_Page$class__parser__Ljapgolly_scalajs_react_extras_router_Page__s_PartialFunction__Ljapgolly_scalajs_react_extras_router_Page$DynB(this, pf$1).thenMatch__F1__Ljapgolly_scalajs_react_extras_router_Page$DynamicRoute(new ScalaJS.c.sjsr_AnonFunction1().init___sjs_js_Function1((function(x0$1$2) {
+    var x0$1 = ScalaJS.as.T(x0$1$2);
+    var o7 = ScalaJS.m.Lcom_chandu0101_router_AppRouter$AppPage().matchNumber__s_util_matching_Regex().unapplySeq__jl_CharSequence__s_Option(x0$1);
+    if ((!o7.isEmpty__Z())) {
+      if ((o7.get__O() !== null)) {
+        var this$8 = ScalaJS.as.sc_LinearSeqOptimized(o7.get__O());
+        var jsx$1 = (ScalaJS.i.sc_LinearSeqOptimized$class__lengthCompare__sc_LinearSeqOptimized__I__I(this$8, 1) === 0)
+      } else {
+        var jsx$1 = false
+      };
+      if (jsx$1) {
+        var this$9 = ScalaJS.as.sc_LinearSeqOptimized(o7.get__O());
+        var idStr = ScalaJS.as.T(ScalaJS.i.sc_LinearSeqOptimized$class__apply__sc_LinearSeqOptimized__I__O(this$9, 0));
+        var this$16 = ScalaJS.m.Lcom_chandu0101_router_AppRouter$AppPage();
+        ScalaJS.m.Lcom_chandu0101_router_AppRouter$AppPage();
+        var jsx$2 = ScalaJS.m.Lcom_chandu0101_router_AppRouter().PersonComponent$1;
+        var this$11 = new ScalaJS.c.sci_StringOps().init___T(idStr);
+        var s = this$11.repr$1;
+        var a$2 = jsx$2.apply__O__sc_Seq__Ljapgolly_scalajs_react_ReactComponentU(new ScalaJS.c.Lcom_chandu0101_router_AppRouter$PersonId().init___J(ScalaJS.m.sjsr_RuntimeLongImpl().fromString__T__I__sjsr_RuntimeLong(s, 10)), new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([]));
+        var evidence$1$2 = ScalaJS.m.s_Predef().singleton$und$less$colon$less$2;
+        var render$1 = new ScalaJS.c.sjsr_AnonFunction1().init___sjs_js_Function1((function(a$1$2, evidence$1$1$1) {
+          return (function(x$3$2$1) {
+            return (ScalaJS.as.Ljapgolly_scalajs_react_extras_router_Router(x$3$2$1), evidence$1$1$1.apply__O__O(a$1$2))
+          })
+        })(a$2, evidence$1$2));
+        return ScalaJS.i.Ljapgolly_scalajs_react_extras_router_Page$class__render__Ljapgolly_scalajs_react_extras_router_Page__F1__F1(this$16, render$1)
+      }
+    };
+    var this$17 = ScalaJS.m.Lcom_chandu0101_router_AppRouter$AppPage();
+    var to$1 = ScalaJS.m.Lcom_chandu0101_router_AppRouter$AppPage().root$1;
+    var method$1 = ScalaJS.m.Ljapgolly_scalajs_react_extras_router_Redirect$Push();
+    return ScalaJS.i.Ljapgolly_scalajs_react_extras_router_Page$class__redirect__Ljapgolly_scalajs_react_extras_router_Page__Ljapgolly_scalajs_react_extras_router_Location__Ljapgolly_scalajs_react_extras_router_Redirect$Method__F1(this$17, to$1, method$1)
+  })));
+  ScalaJS.i.Ljapgolly_scalajs_react_extras_router_Page$class__register__Ljapgolly_scalajs_react_extras_router_Page__Ljapgolly_scalajs_react_extras_router_Page$DynamicRoute__V(this, u$4);
+  var path$1 = new ScalaJS.c.sjsr_AnonFunction1().init___sjs_js_Function1((function(id$2) {
+    var id = ScalaJS.as.Lcom_chandu0101_router_AppRouter$PersonId(id$2);
+    return new ScalaJS.c.s_StringContext().init___sc_Seq(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array(["/person/", ""])).s__sc_Seq__T(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([id.value$1]))
+  }));
+  this.person$1 = ScalaJS.i.Ljapgolly_scalajs_react_extras_router_Page$class__dynLink__Ljapgolly_scalajs_react_extras_router_Page__F1__F1(this, path$1);
+  var u$5 = ScalaJS.i.Ljapgolly_scalajs_react_extras_router_Page$class__removeTrailingSlashes__Ljapgolly_scalajs_react_extras_router_Page__Ljapgolly_scalajs_react_extras_router_Page$DynamicRoute(this);
+  ScalaJS.i.Ljapgolly_scalajs_react_extras_router_Page$class__register__Ljapgolly_scalajs_react_extras_router_Page__Ljapgolly_scalajs_react_extras_router_Page$DynamicRoute__V(this, u$5);
+  var to$2 = this.root$1;
+  var method$2 = ScalaJS.m.Ljapgolly_scalajs_react_extras_router_Redirect$Replace();
+  this.notFound$1 = ScalaJS.i.Ljapgolly_scalajs_react_extras_router_Page$class__redirect__Ljapgolly_scalajs_react_extras_router_Page__Ljapgolly_scalajs_react_extras_router_Location__Ljapgolly_scalajs_react_extras_router_Redirect$Method__F1(this, to$2, method$2);
   return this
+});
+ScalaJS.c.Lcom_chandu0101_router_AppRouter$AppPage$.prototype.matchNumber$lzycompute__p1__s_util_matching_Regex = (function() {
+  if ((!this.bitmap$0$1)) {
+    this.matchNumber$1 = ScalaJS.i.Ljapgolly_scalajs_react_extras_router_Page$class__matchNumber__Ljapgolly_scalajs_react_extras_router_Page__s_util_matching_Regex(this);
+    this.bitmap$0$1 = true
+  };
+  return this.matchNumber$1
+});
+ScalaJS.c.Lcom_chandu0101_router_AppRouter$AppPage$.prototype.matchNumber__s_util_matching_Regex = (function() {
+  return ((!this.bitmap$0$1) ? this.matchNumber$lzycompute__p1__s_util_matching_Regex() : this.matchNumber$1)
 });
 ScalaJS.c.Lcom_chandu0101_router_AppRouter$AppPage$.prototype.interceptRender__Ljapgolly_scalajs_react_extras_router_Page$InterceptionR__Ljapgolly_scalajs_react_ReactElement = (function(i) {
   if (ScalaJS.anyRefEqEq(i.loc$1, this.root$1)) {
@@ -3201,6 +3311,86 @@ ScalaJS.m.Lcom_chandu0101_router_AppRouter$AppPage = (function() {
   };
   return ScalaJS.n.Lcom_chandu0101_router_AppRouter$AppPage
 });
+/** @constructor */
+ScalaJS.c.Lcom_chandu0101_router_AppRouter$PersonId = (function() {
+  ScalaJS.c.O.call(this);
+  this.value$1 = ScalaJS.m.sjsr_RuntimeLongImpl().Zero__sjsr_RuntimeLong()
+});
+ScalaJS.c.Lcom_chandu0101_router_AppRouter$PersonId.prototype = new ScalaJS.h.O();
+ScalaJS.c.Lcom_chandu0101_router_AppRouter$PersonId.prototype.constructor = ScalaJS.c.Lcom_chandu0101_router_AppRouter$PersonId;
+/** @constructor */
+ScalaJS.h.Lcom_chandu0101_router_AppRouter$PersonId = (function() {
+  /*<skip>*/
+});
+ScalaJS.h.Lcom_chandu0101_router_AppRouter$PersonId.prototype = ScalaJS.c.Lcom_chandu0101_router_AppRouter$PersonId.prototype;
+ScalaJS.c.Lcom_chandu0101_router_AppRouter$PersonId.prototype.productPrefix__T = (function() {
+  return "PersonId"
+});
+ScalaJS.c.Lcom_chandu0101_router_AppRouter$PersonId.prototype.productArity__I = (function() {
+  return 1
+});
+ScalaJS.c.Lcom_chandu0101_router_AppRouter$PersonId.prototype.init___J = (function(value) {
+  this.value$1 = value;
+  return this
+});
+ScalaJS.c.Lcom_chandu0101_router_AppRouter$PersonId.prototype.equals__O__Z = (function(x$1) {
+  if ((this === x$1)) {
+    return true
+  } else if (ScalaJS.is.Lcom_chandu0101_router_AppRouter$PersonId(x$1)) {
+    var PersonId$1 = ScalaJS.as.Lcom_chandu0101_router_AppRouter$PersonId(x$1);
+    return this.value$1.equals__sjsr_RuntimeLong__Z(PersonId$1.value$1)
+  } else {
+    return false
+  }
+});
+ScalaJS.c.Lcom_chandu0101_router_AppRouter$PersonId.prototype.productElement__I__O = (function(x$1) {
+  switch (x$1) {
+    case 0:
+      {
+        return this.value$1;
+        break
+      };
+    default:
+      throw new ScalaJS.c.jl_IndexOutOfBoundsException().init___T(ScalaJS.objectToString(x$1));
+  }
+});
+ScalaJS.c.Lcom_chandu0101_router_AppRouter$PersonId.prototype.toString__T = (function() {
+  return ScalaJS.m.sr_ScalaRunTime().$$undtoString__s_Product__T(this)
+});
+ScalaJS.c.Lcom_chandu0101_router_AppRouter$PersonId.prototype.hashCode__I = (function() {
+  var acc = (-889275714);
+  var jsx$2 = ScalaJS.m.sr_Statics();
+  var jsx$1 = acc;
+  var lv = this.value$1;
+  acc = jsx$2.mix__I__I__I(jsx$1, lv.toInt__I());
+  return ScalaJS.m.sr_Statics().finalizeHash__I__I__I(acc, 1)
+});
+ScalaJS.c.Lcom_chandu0101_router_AppRouter$PersonId.prototype.productIterator__sc_Iterator = (function() {
+  return new ScalaJS.c.sr_ScalaRunTime$$anon$1().init___s_Product(this)
+});
+ScalaJS.is.Lcom_chandu0101_router_AppRouter$PersonId = (function(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lcom_chandu0101_router_AppRouter$PersonId)))
+});
+ScalaJS.as.Lcom_chandu0101_router_AppRouter$PersonId = (function(obj) {
+  return ((ScalaJS.is.Lcom_chandu0101_router_AppRouter$PersonId(obj) || (obj === null)) ? obj : ScalaJS.throwClassCastException(obj, "com.chandu0101.router.AppRouter$PersonId"))
+});
+ScalaJS.isArrayOf.Lcom_chandu0101_router_AppRouter$PersonId = (function(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lcom_chandu0101_router_AppRouter$PersonId)))
+});
+ScalaJS.asArrayOf.Lcom_chandu0101_router_AppRouter$PersonId = (function(obj, depth) {
+  return ((ScalaJS.isArrayOf.Lcom_chandu0101_router_AppRouter$PersonId(obj, depth) || (obj === null)) ? obj : ScalaJS.throwArrayCastException(obj, "Lcom.chandu0101.router.AppRouter$PersonId;", depth))
+});
+ScalaJS.d.Lcom_chandu0101_router_AppRouter$PersonId = new ScalaJS.ClassTypeData({
+  Lcom_chandu0101_router_AppRouter$PersonId: 0
+}, false, "com.chandu0101.router.AppRouter$PersonId", ScalaJS.d.O, {
+  Lcom_chandu0101_router_AppRouter$PersonId: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1,
+  s_Product: 1,
+  s_Equals: 1,
+  O: 1
+});
+ScalaJS.c.Lcom_chandu0101_router_AppRouter$PersonId.prototype.$classData = ScalaJS.d.Lcom_chandu0101_router_AppRouter$PersonId;
 /** @constructor */
 ScalaJS.c.Ljapgolly_scalajs_react_Internal$ = (function() {
   ScalaJS.c.O.call(this);
@@ -4060,74 +4250,6 @@ ScalaJS.d.Ljapgolly_scalajs_react_ReactNode = new ScalaJS.ClassTypeData({
   Ljapgolly_scalajs_react_ReactNode: 1
 });
 /** @constructor */
-ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$ = (function() {
-  ScalaJS.c.O.call(this);
-  this.IoToIo$1 = null;
-  this.preventDefaultIO$1 = null;
-  this.stopPropagationIO$1 = null
-});
-ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$.prototype = new ScalaJS.h.O();
-ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$.prototype.constructor = ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$;
-/** @constructor */
-ScalaJS.h.Ljapgolly_scalajs_react_ScalazReact$ = (function() {
-  /*<skip>*/
-});
-ScalaJS.h.Ljapgolly_scalajs_react_ScalazReact$.prototype = ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$.prototype;
-ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$.prototype.init___ = (function() {
-  ScalaJS.n.Ljapgolly_scalajs_react_ScalazReact = this;
-  var this$1 = ScalaJS.m.Lscalaz_NaturalTransformation();
-  this.IoToIo$1 = new ScalaJS.c.Lscalaz_NaturalTransformations$$anon$1().init___Lscalaz_NaturalTransformations(this$1);
-  this.preventDefaultIO$1 = new ScalaJS.c.sjsr_AnonFunction1().init___sjs_js_Function1((function(x$2$2) {
-    var x$2 = x$2$2;
-    return ScalaJS.m.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undSEvent().preventDefaultIO$extension__Ljapgolly_scalajs_react_SyntheticEvent__Lscalaz_effect_IO((ScalaJS.m.Ljapgolly_scalajs_react_ScalazReact(), x$2))
-  }));
-  this.stopPropagationIO$1 = new ScalaJS.c.sjsr_AnonFunction1().init___sjs_js_Function1((function(x$3$2) {
-    var x$3 = x$3$2;
-    return ScalaJS.m.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undSEvent().stopPropagationIO$extension__Ljapgolly_scalajs_react_SyntheticEvent__Lscalaz_effect_IO((ScalaJS.m.Ljapgolly_scalajs_react_ScalazReact(), x$3))
-  }));
-  return this
-});
-ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$.prototype.OpCallbackFromIO__sjs_js_UndefOr__sjs_js_UndefOr = (function(cb) {
-  if ((cb === (void 0))) {
-    var value = (void 0);
-    return value
-  } else {
-    var f = ScalaJS.as.Lscalaz_effect_IO(cb);
-    var value$1 = new ScalaJS.c.sjsr_AnonFunction0().init___sjs_js_Function0((function(f$16) {
-      return (function() {
-        return (ScalaJS.i.Lscalaz_effect_IO$class__unsafePerformIO__Lscalaz_effect_IO__O(f$16), (void 0))
-      })
-    })(f));
-    return value$1
-  }
-});
-ScalaJS.is.Ljapgolly_scalajs_react_ScalazReact$ = (function(obj) {
-  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljapgolly_scalajs_react_ScalazReact$)))
-});
-ScalaJS.as.Ljapgolly_scalajs_react_ScalazReact$ = (function(obj) {
-  return ((ScalaJS.is.Ljapgolly_scalajs_react_ScalazReact$(obj) || (obj === null)) ? obj : ScalaJS.throwClassCastException(obj, "japgolly.scalajs.react.ScalazReact$"))
-});
-ScalaJS.isArrayOf.Ljapgolly_scalajs_react_ScalazReact$ = (function(obj, depth) {
-  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Ljapgolly_scalajs_react_ScalazReact$)))
-});
-ScalaJS.asArrayOf.Ljapgolly_scalajs_react_ScalazReact$ = (function(obj, depth) {
-  return ((ScalaJS.isArrayOf.Ljapgolly_scalajs_react_ScalazReact$(obj, depth) || (obj === null)) ? obj : ScalaJS.throwArrayCastException(obj, "Ljapgolly.scalajs.react.ScalazReact$;", depth))
-});
-ScalaJS.d.Ljapgolly_scalajs_react_ScalazReact$ = new ScalaJS.ClassTypeData({
-  Ljapgolly_scalajs_react_ScalazReact$: 0
-}, false, "japgolly.scalajs.react.ScalazReact$", ScalaJS.d.O, {
-  Ljapgolly_scalajs_react_ScalazReact$: 1,
-  O: 1
-});
-ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$.prototype.$classData = ScalaJS.d.Ljapgolly_scalajs_react_ScalazReact$;
-ScalaJS.n.Ljapgolly_scalajs_react_ScalazReact = (void 0);
-ScalaJS.m.Ljapgolly_scalajs_react_ScalazReact = (function() {
-  if ((!ScalaJS.n.Ljapgolly_scalajs_react_ScalazReact)) {
-    ScalaJS.n.Ljapgolly_scalajs_react_ScalazReact = new ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$().init___()
-  };
-  return ScalaJS.n.Ljapgolly_scalajs_react_ScalazReact
-});
-/** @constructor */
 ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$ChangeFilter = (function() {
   ScalaJS.c.O.call(this);
   this.allowChange$1 = null
@@ -4214,12 +4336,12 @@ ScalaJS.h.Ljapgolly_scalajs_react_ScalazReact$ChangeFilter$ = (function() {
   /*<skip>*/
 });
 ScalaJS.h.Ljapgolly_scalajs_react_ScalazReact$ChangeFilter$.prototype = ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$ChangeFilter$.prototype;
-ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$ChangeFilter$.prototype.equal__Lscalaz_Equal__Ljapgolly_scalajs_react_ScalazReact$ChangeFilter = (function(evidence$1) {
-  return new ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$ChangeFilter().init___F2(new ScalaJS.c.sjsr_AnonFunction2().init___sjs_js_Function2((function(evidence$1$1) {
+ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$ChangeFilter$.prototype.equal__Lscalaz_Equal__Ljapgolly_scalajs_react_ScalazReact$ChangeFilter = (function(evidence$2) {
+  return new ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$ChangeFilter().init___F2(new ScalaJS.c.sjsr_AnonFunction2().init___sjs_js_Function2((function(evidence$2$1) {
     return (function(a$2, b$2) {
-      return (!evidence$1$1.equal__O__O__Z(a$2, b$2))
+      return (!evidence$2$1.equal__O__O__Z(a$2, b$2))
     })
-  })(evidence$1)))
+  })(evidence$2)))
 });
 ScalaJS.is.Ljapgolly_scalajs_react_ScalazReact$ChangeFilter$ = (function(obj) {
   return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljapgolly_scalajs_react_ScalazReact$ChangeFilter$)))
@@ -4344,9 +4466,9 @@ ScalaJS.h.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undAttr$.prototype = ScalaJ
 ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undAttr$.prototype.$$tilde$tilde$greater$extension1__Ljapgolly_scalajs_react_vdom_Attr__F1__Ljapgolly_scalajs_react_vdom_TagMod = (function($$this, eventHandler) {
   ScalaJS.m.Ljapgolly_scalajs_react_vdom_Implicits();
   var eventHandler$2 = new ScalaJS.c.sjsr_AnonFunction1().init___sjs_js_Function1((function(eventHandler$1) {
-    return (function(x$1$2) {
-      var x$1 = x$1$2;
-      var this$2 = ScalaJS.as.Lscalaz_effect_IO(eventHandler$1.apply__O__O(x$1));
+    return (function(x$5$2) {
+      var x$5 = x$5$2;
+      var this$2 = ScalaJS.as.Lscalaz_effect_IO(eventHandler$1.apply__O__O(x$5));
       ScalaJS.i.Lscalaz_effect_IO$class__unsafePerformIO__Lscalaz_effect_IO__O(this$2)
     })
   })(eventHandler));
@@ -4651,6 +4773,12 @@ ScalaJS.c.Ljapgolly_scalajs_react_extras_router_AbsUrl.prototype.toString__T = (
 });
 ScalaJS.c.Ljapgolly_scalajs_react_extras_router_AbsUrl.prototype.init___T = (function(value) {
   this.value$1 = value;
+  if ((!ScalaJS.i.sjsr_RuntimeString$class__contains__sjsr_RuntimeString__jl_CharSequence__Z(this.value$1, "://"))) {
+    var jsx$1 = ScalaJS.g["console"];
+    ScalaJS.m.Ljapgolly_scalajs_react_package();
+    var v = new ScalaJS.c.s_StringContext().init___sc_Seq(ScalaJS.m.s_Predef().wrapRefArray__AO__scm_WrappedArray(ScalaJS.asArrayOf.O(ScalaJS.makeNativeArrayWrapper(ScalaJS.d.T.getArrayOf(), ["", " doesn't seem to be a valid URL. It's missing '://'. Consider using AbsUrl.fromWindow."]), 1))).s__sc_Seq__T(ScalaJS.m.s_Predef().genericWrapArray__O__scm_WrappedArray(ScalaJS.makeNativeArrayWrapper(ScalaJS.d.O.getArrayOf(), [this])));
+    jsx$1["warn"](v)
+  };
   return this
 });
 ScalaJS.c.Ljapgolly_scalajs_react_extras_router_AbsUrl.prototype.hashCode__I = (function() {
@@ -4725,6 +4853,24 @@ ScalaJS.m.Ljapgolly_scalajs_react_extras_router_AbsUrl = (function() {
   };
   return ScalaJS.n.Ljapgolly_scalajs_react_extras_router_AbsUrl
 });
+ScalaJS.is.Ljapgolly_scalajs_react_extras_router_ApprovedPath = (function(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljapgolly_scalajs_react_extras_router_ApprovedPath)))
+});
+ScalaJS.as.Ljapgolly_scalajs_react_extras_router_ApprovedPath = (function(obj) {
+  return ((ScalaJS.is.Ljapgolly_scalajs_react_extras_router_ApprovedPath(obj) || (obj === null)) ? obj : ScalaJS.throwClassCastException(obj, "japgolly.scalajs.react.extras.router.ApprovedPath"))
+});
+ScalaJS.isArrayOf.Ljapgolly_scalajs_react_extras_router_ApprovedPath = (function(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Ljapgolly_scalajs_react_extras_router_ApprovedPath)))
+});
+ScalaJS.asArrayOf.Ljapgolly_scalajs_react_extras_router_ApprovedPath = (function(obj, depth) {
+  return ((ScalaJS.isArrayOf.Ljapgolly_scalajs_react_extras_router_ApprovedPath(obj, depth) || (obj === null)) ? obj : ScalaJS.throwArrayCastException(obj, "Ljapgolly.scalajs.react.extras.router.ApprovedPath;", depth))
+});
+ScalaJS.d.Ljapgolly_scalajs_react_extras_router_ApprovedPath = new ScalaJS.ClassTypeData({
+  Ljapgolly_scalajs_react_extras_router_ApprovedPath: 0
+}, true, "japgolly.scalajs.react.extras.router.ApprovedPath", (void 0), {
+  Ljapgolly_scalajs_react_extras_router_ApprovedPath: 1,
+  O: 1
+});
 /** @constructor */
 ScalaJS.c.Ljapgolly_scalajs_react_extras_router_BaseUrl = (function() {
   ScalaJS.c.O.call(this);
@@ -4740,11 +4886,11 @@ ScalaJS.h.Ljapgolly_scalajs_react_extras_router_BaseUrl.prototype = ScalaJS.c.Lj
 ScalaJS.c.Ljapgolly_scalajs_react_extras_router_BaseUrl.prototype.productPrefix__T = (function() {
   return "BaseUrl"
 });
-ScalaJS.c.Ljapgolly_scalajs_react_extras_router_BaseUrl.prototype.$$div__T__Ljapgolly_scalajs_react_extras_router_BaseUrl = (function(p) {
-  return new ScalaJS.c.Ljapgolly_scalajs_react_extras_router_BaseUrl().init___T(((this.value$1 + "/") + p))
-});
 ScalaJS.c.Ljapgolly_scalajs_react_extras_router_BaseUrl.prototype.productArity__I = (function() {
   return 1
+});
+ScalaJS.c.Ljapgolly_scalajs_react_extras_router_BaseUrl.prototype.$$div__T__Ljapgolly_scalajs_react_extras_router_BaseUrl = (function(p) {
+  return new ScalaJS.c.Ljapgolly_scalajs_react_extras_router_BaseUrl().init___T(((this.value$1 + "/") + p))
 });
 ScalaJS.c.Ljapgolly_scalajs_react_extras_router_BaseUrl.prototype.equals__O__Z = (function(x$1) {
   if ((this === x$1)) {
@@ -4772,6 +4918,12 @@ ScalaJS.c.Ljapgolly_scalajs_react_extras_router_BaseUrl.prototype.toString__T = 
 });
 ScalaJS.c.Ljapgolly_scalajs_react_extras_router_BaseUrl.prototype.init___T = (function(value) {
   this.value$1 = value;
+  if ((!ScalaJS.i.sjsr_RuntimeString$class__contains__sjsr_RuntimeString__jl_CharSequence__Z(this.value$1, "://"))) {
+    var jsx$1 = ScalaJS.g["console"];
+    ScalaJS.m.Ljapgolly_scalajs_react_package();
+    var v = new ScalaJS.c.s_StringContext().init___sc_Seq(ScalaJS.m.s_Predef().wrapRefArray__AO__scm_WrappedArray(ScalaJS.asArrayOf.O(ScalaJS.makeNativeArrayWrapper(ScalaJS.d.T.getArrayOf(), ["", " doesn't seem to be a valid URL. It's missing '://'. Consider using BaseUrl.fromWindow."]), 1))).s__sc_Seq__T(ScalaJS.m.s_Predef().genericWrapArray__O__scm_WrappedArray(ScalaJS.makeNativeArrayWrapper(ScalaJS.d.O.getArrayOf(), [this])));
+    jsx$1["warn"](v)
+  };
   return this
 });
 ScalaJS.c.Ljapgolly_scalajs_react_extras_router_BaseUrl.prototype.hashCode__I = (function() {
@@ -4850,6 +5002,86 @@ ScalaJS.m.Ljapgolly_scalajs_react_extras_router_BaseUrl = (function() {
   return ScalaJS.n.Ljapgolly_scalajs_react_extras_router_BaseUrl
 });
 /** @constructor */
+ScalaJS.c.Ljapgolly_scalajs_react_extras_router_DynamicLocation = (function() {
+  ScalaJS.c.O.call(this);
+  this.path$1 = null
+});
+ScalaJS.c.Ljapgolly_scalajs_react_extras_router_DynamicLocation.prototype = new ScalaJS.h.O();
+ScalaJS.c.Ljapgolly_scalajs_react_extras_router_DynamicLocation.prototype.constructor = ScalaJS.c.Ljapgolly_scalajs_react_extras_router_DynamicLocation;
+/** @constructor */
+ScalaJS.h.Ljapgolly_scalajs_react_extras_router_DynamicLocation = (function() {
+  /*<skip>*/
+});
+ScalaJS.h.Ljapgolly_scalajs_react_extras_router_DynamicLocation.prototype = ScalaJS.c.Ljapgolly_scalajs_react_extras_router_DynamicLocation.prototype;
+ScalaJS.c.Ljapgolly_scalajs_react_extras_router_DynamicLocation.prototype.productPrefix__T = (function() {
+  return "DynamicLocation"
+});
+ScalaJS.c.Ljapgolly_scalajs_react_extras_router_DynamicLocation.prototype.productArity__I = (function() {
+  return 1
+});
+ScalaJS.c.Ljapgolly_scalajs_react_extras_router_DynamicLocation.prototype.equals__O__Z = (function(x$1) {
+  if ((this === x$1)) {
+    return true
+  } else if (ScalaJS.is.Ljapgolly_scalajs_react_extras_router_DynamicLocation(x$1)) {
+    var DynamicLocation$1 = ScalaJS.as.Ljapgolly_scalajs_react_extras_router_DynamicLocation(x$1);
+    return ScalaJS.anyRefEqEq(this.path$1, DynamicLocation$1.path$1)
+  } else {
+    return false
+  }
+});
+ScalaJS.c.Ljapgolly_scalajs_react_extras_router_DynamicLocation.prototype.productElement__I__O = (function(x$1) {
+  switch (x$1) {
+    case 0:
+      {
+        return this.path$1;
+        break
+      };
+    default:
+      throw new ScalaJS.c.jl_IndexOutOfBoundsException().init___T(ScalaJS.objectToString(x$1));
+  }
+});
+ScalaJS.c.Ljapgolly_scalajs_react_extras_router_DynamicLocation.prototype.toString__T = (function() {
+  return ScalaJS.m.sr_ScalaRunTime().$$undtoString__s_Product__T(this)
+});
+ScalaJS.c.Ljapgolly_scalajs_react_extras_router_DynamicLocation.prototype.hashCode__I = (function() {
+  var this$2 = ScalaJS.m.s_util_hashing_MurmurHash3();
+  return this$2.productHash__s_Product__I__I(this, (-889275714))
+});
+ScalaJS.c.Ljapgolly_scalajs_react_extras_router_DynamicLocation.prototype.path__Ljapgolly_scalajs_react_extras_router_Path = (function() {
+  return this.path$1
+});
+ScalaJS.c.Ljapgolly_scalajs_react_extras_router_DynamicLocation.prototype.productIterator__sc_Iterator = (function() {
+  return new ScalaJS.c.sr_ScalaRunTime$$anon$1().init___s_Product(this)
+});
+ScalaJS.c.Ljapgolly_scalajs_react_extras_router_DynamicLocation.prototype.init___Ljapgolly_scalajs_react_extras_router_Path = (function(path) {
+  this.path$1 = path;
+  return this
+});
+ScalaJS.is.Ljapgolly_scalajs_react_extras_router_DynamicLocation = (function(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljapgolly_scalajs_react_extras_router_DynamicLocation)))
+});
+ScalaJS.as.Ljapgolly_scalajs_react_extras_router_DynamicLocation = (function(obj) {
+  return ((ScalaJS.is.Ljapgolly_scalajs_react_extras_router_DynamicLocation(obj) || (obj === null)) ? obj : ScalaJS.throwClassCastException(obj, "japgolly.scalajs.react.extras.router.DynamicLocation"))
+});
+ScalaJS.isArrayOf.Ljapgolly_scalajs_react_extras_router_DynamicLocation = (function(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Ljapgolly_scalajs_react_extras_router_DynamicLocation)))
+});
+ScalaJS.asArrayOf.Ljapgolly_scalajs_react_extras_router_DynamicLocation = (function(obj, depth) {
+  return ((ScalaJS.isArrayOf.Ljapgolly_scalajs_react_extras_router_DynamicLocation(obj, depth) || (obj === null)) ? obj : ScalaJS.throwArrayCastException(obj, "Ljapgolly.scalajs.react.extras.router.DynamicLocation;", depth))
+});
+ScalaJS.d.Ljapgolly_scalajs_react_extras_router_DynamicLocation = new ScalaJS.ClassTypeData({
+  Ljapgolly_scalajs_react_extras_router_DynamicLocation: 0
+}, false, "japgolly.scalajs.react.extras.router.DynamicLocation", ScalaJS.d.O, {
+  Ljapgolly_scalajs_react_extras_router_DynamicLocation: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1,
+  s_Product: 1,
+  s_Equals: 1,
+  Ljapgolly_scalajs_react_extras_router_ApprovedPath: 1,
+  O: 1
+});
+ScalaJS.c.Ljapgolly_scalajs_react_extras_router_DynamicLocation.prototype.$classData = ScalaJS.d.Ljapgolly_scalajs_react_extras_router_DynamicLocation;
+/** @constructor */
 ScalaJS.c.Ljapgolly_scalajs_react_extras_router_Location = (function() {
   ScalaJS.c.O.call(this);
   this.path$1 = null;
@@ -4900,6 +5132,9 @@ ScalaJS.c.Ljapgolly_scalajs_react_extras_router_Location.prototype.toString__T =
 ScalaJS.c.Ljapgolly_scalajs_react_extras_router_Location.prototype.hashCode__I = (function() {
   var this$2 = ScalaJS.m.s_util_hashing_MurmurHash3();
   return this$2.productHash__s_Product__I__I(this, (-889275714))
+});
+ScalaJS.c.Ljapgolly_scalajs_react_extras_router_Location.prototype.path__Ljapgolly_scalajs_react_extras_router_Path = (function() {
+  return this.path$1
 });
 ScalaJS.c.Ljapgolly_scalajs_react_extras_router_Location.prototype.init___Ljapgolly_scalajs_react_extras_router_Path__F1 = (function(path, render) {
   this.path$1 = path;
@@ -5016,6 +5251,14 @@ ScalaJS.c.Ljapgolly_scalajs_react_extras_router_Page$DynB.prototype.redirection_
     })
   })(f)))
 });
+ScalaJS.c.Ljapgolly_scalajs_react_extras_router_Page$DynB.prototype.thenMatch__F1__Ljapgolly_scalajs_react_extras_router_Page$DynamicRoute = (function(f) {
+  return this.dynamicRoute__p1__F2__Ljapgolly_scalajs_react_extras_router_Page$DynamicRoute(new ScalaJS.c.sjsr_AnonFunction2().init___sjs_js_Function2((function(f$2) {
+    return (function(p$2, t$2) {
+      var p = ScalaJS.as.Ljapgolly_scalajs_react_extras_router_Path(p$2);
+      return ScalaJS.as.Ljapgolly_scalajs_react_extras_router_RouteAction(ScalaJS.as.F1(f$2.apply__O__O(t$2)).apply__O__O(p))
+    })
+  })(f)))
+});
 ScalaJS.c.Ljapgolly_scalajs_react_extras_router_Page$DynB.prototype.init___Ljapgolly_scalajs_react_extras_router_Page__F1 = (function($$outer, parse) {
   this.japgolly$scalajs$react$extras$router$Page$DynB$$parse$f = parse;
   if (($$outer === null)) {
@@ -5024,6 +5267,14 @@ ScalaJS.c.Ljapgolly_scalajs_react_extras_router_Page$DynB.prototype.init___Ljapg
     this.$$outer$1 = $$outer
   };
   return this
+});
+ScalaJS.c.Ljapgolly_scalajs_react_extras_router_Page$DynB.prototype.location__F1__Ljapgolly_scalajs_react_extras_router_Page$DynamicRoute = (function(f) {
+  return this.dynamicRoute__p1__F2__Ljapgolly_scalajs_react_extras_router_Page$DynamicRoute(new ScalaJS.c.sjsr_AnonFunction2().init___sjs_js_Function2((function(arg$outer, f$3) {
+    return (function(p$2, t$2) {
+      var p = ScalaJS.as.Ljapgolly_scalajs_react_extras_router_Path(p$2);
+      return ScalaJS.i.Ljapgolly_scalajs_react_extras_router_Page$class__japgolly$scalajs$react$extras$router$Page$$mkloc__Ljapgolly_scalajs_react_extras_router_Page__Ljapgolly_scalajs_react_extras_router_Path__F1__Ljapgolly_scalajs_react_extras_router_Location(arg$outer.$$outer$1, p, ScalaJS.as.F1(f$3.apply__O__O(t$2)))
+    })
+  })(this, f)))
 });
 ScalaJS.is.Ljapgolly_scalajs_react_extras_router_Page$DynB = (function(obj) {
   return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljapgolly_scalajs_react_extras_router_Page$DynB)))
@@ -6008,7 +6259,7 @@ ScalaJS.c.Ljapgolly_scalajs_react_extras_router_Router.prototype.parseUrl__Ljapg
 });
 ScalaJS.c.Ljapgolly_scalajs_react_extras_router_Router.prototype.set__Ljapgolly_scalajs_react_extras_router_ApprovedPath__Lscalaz_Free = (function(p) {
   var jsx$2 = ScalaJS.m.Ljapgolly_scalajs_react_extras_router_package$ReactRouteCmdExt();
-  var this$1 = p.path$1;
+  var this$1 = p.path__Ljapgolly_scalajs_react_extras_router_Path();
   var base = this.baseUrl$1;
   var jsx$1 = new ScalaJS.c.Ljapgolly_scalajs_react_extras_router_RouteCmd$PushState().init___Ljapgolly_scalajs_react_extras_router_AbsUrl(base.$$div__Ljapgolly_scalajs_react_extras_router_Path__Ljapgolly_scalajs_react_extras_router_AbsUrl(this$1));
   var c = ScalaJS.m.Ljapgolly_scalajs_react_extras_router_RouteCmd$BroadcastLocChange();
@@ -6034,7 +6285,7 @@ ScalaJS.c.Ljapgolly_scalajs_react_extras_router_Router.prototype.link__Ljapgolly
   var jsx$2 = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$Tags()).a$1;
   var jsx$1 = ScalaJS.m.s_Predef();
   var this$5 = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$Attrs()).href$1;
-  var this$3 = p.path$1;
+  var this$3 = p.path__Ljapgolly_scalajs_react_extras_router_Path();
   var base = this.baseUrl$1;
   var v = base.$$div__Ljapgolly_scalajs_react_extras_router_Path__Ljapgolly_scalajs_react_extras_router_AbsUrl(this$3).value$1;
   var ev = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_Scalatags().stringAttrX$1);
@@ -6170,12 +6421,12 @@ ScalaJS.c.Ljapgolly_scalajs_react_extras_router_Router$.prototype.component__Lja
       var ms = router$1$4.syncToWindowUrl__Lscalaz_effect_IO();
       var M = ScalaJS.m.Lscalaz_effect_IO().ioMonadCatchIO$3;
       return this$4.modM__F1__Lscalaz_Functor__Lscalaz_IndexedStateT(new ScalaJS.c.sjsr_AnonFunction1().init___sjs_js_Function1((function(ms$1) {
-        return (function(x$7$2) {
+        return (function(x$11$2) {
           return ms$1
         })
       })(ms)), M)
     })
-  })(router)), ScalaJS.m.Ljapgolly_scalajs_react_ScalazReact().IoToIo$1, ScalaJS.m.Ljapgolly_scalajs_react_ScalazReact$ChangeFilter().equal__Lscalaz_Equal__Ljapgolly_scalajs_react_ScalazReact$ChangeFilter(ScalaJS.m.Ljapgolly_scalajs_react_extras_router_Location().equivalence__Lscalaz_Equal()))]), 1)));
+  })(router)), ScalaJS.m.Ljapgolly_scalajs_react_ScalazReact().IoToIo$2, ScalaJS.m.Ljapgolly_scalajs_react_ScalazReact$ChangeFilter().equal__Lscalaz_Equal__Ljapgolly_scalajs_react_ScalazReact$ChangeFilter(ScalaJS.m.Ljapgolly_scalajs_react_extras_router_Location().equivalence__Lscalaz_Equal()))]), 1)));
   return new ScalaJS.c.Ljapgolly_scalajs_react_ReactComponentB$AnchorN().init___Ljapgolly_scalajs_react_ReactComponentB(c).buildU__s_Predef$$eq$colon$eq__Ljapgolly_scalajs_react_package$ReactComponentC$ConstProps(ScalaJS.m.s_Predef().scala$Predef$$singleton$und$eq$colon$eq$f)
 });
 ScalaJS.is.Ljapgolly_scalajs_react_extras_router_Router$ = (function(obj) {
@@ -6977,12 +7228,12 @@ ScalaJS.c.Ljapgolly_scalajs_react_vdom_ReactTag.prototype.toString__T = (functio
   return ScalaJS.objectToString(this.render__Ljapgolly_scalajs_react_ReactElement())
 });
 ScalaJS.c.Ljapgolly_scalajs_react_vdom_ReactTag.prototype.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_ReactTag = (function(xs) {
-  var x$7 = this.tag$1;
-  var x$8 = this.void$1;
+  var x$13 = this.tag$1;
+  var x$14 = this.void$1;
   var this$1 = this.modifiers$1;
-  var x$9 = new ScalaJS.c.sci_$colon$colon().init___O__sci_List(xs, this$1);
-  var x$10 = this.namespace$1;
-  return new ScalaJS.c.Ljapgolly_scalajs_react_vdom_ReactTag().init___T__sci_List__Z__Ljapgolly_scalajs_react_vdom_Scalatags$Namespace(x$7, x$9, x$8, x$10)
+  var x$15 = new ScalaJS.c.sci_$colon$colon().init___O__sci_List(xs, this$1);
+  var x$16 = this.namespace$1;
+  return new ScalaJS.c.Ljapgolly_scalajs_react_vdom_ReactTag().init___T__sci_List__Z__Ljapgolly_scalajs_react_vdom_Scalatags$Namespace(x$13, x$15, x$14, x$16)
 });
 ScalaJS.c.Ljapgolly_scalajs_react_vdom_ReactTag.prototype.render__Ljapgolly_scalajs_react_ReactElement = (function() {
   var b = new ScalaJS.c.Ljapgolly_scalajs_react_vdom_Builder().init___();
@@ -7081,8 +7332,8 @@ ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$.prototype.init___ = (function(
       return evidence$2$1.apply__O__O(a$2)
     })
   })(evidence$2)));
-  this.stringStyleX$1 = new ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$GenericStyle().init___F1(new ScalaJS.c.sjsr_AnonFunction1().init___sjs_js_Function1((function(x$5$2) {
-    return ScalaJS.objectToString(x$5$2)
+  this.stringStyleX$1 = new ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$GenericStyle().init___F1(new ScalaJS.c.sjsr_AnonFunction1().init___sjs_js_Function1((function(x$11$2) {
+    return ScalaJS.objectToString(x$11$2)
   })));
   return this
 });
@@ -7578,6 +7829,36 @@ ScalaJS.d.Ljapgolly_scalajs_react_vdom_Scalatags$StylePair = new ScalaJS.ClassTy
 });
 ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$StylePair.prototype.$classData = ScalaJS.d.Ljapgolly_scalajs_react_vdom_Scalatags$StylePair;
 /** @constructor */
+ScalaJS.c.Ljapgolly_scalajs_react_vdom_ScalazImplicits = (function() {
+  ScalaJS.c.O.call(this)
+});
+ScalaJS.c.Ljapgolly_scalajs_react_vdom_ScalazImplicits.prototype = new ScalaJS.h.O();
+ScalaJS.c.Ljapgolly_scalajs_react_vdom_ScalazImplicits.prototype.constructor = ScalaJS.c.Ljapgolly_scalajs_react_vdom_ScalazImplicits;
+/** @constructor */
+ScalaJS.h.Ljapgolly_scalajs_react_vdom_ScalazImplicits = (function() {
+  /*<skip>*/
+});
+ScalaJS.h.Ljapgolly_scalajs_react_vdom_ScalazImplicits.prototype = ScalaJS.c.Ljapgolly_scalajs_react_vdom_ScalazImplicits.prototype;
+ScalaJS.is.Ljapgolly_scalajs_react_vdom_ScalazImplicits = (function(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljapgolly_scalajs_react_vdom_ScalazImplicits)))
+});
+ScalaJS.as.Ljapgolly_scalajs_react_vdom_ScalazImplicits = (function(obj) {
+  return ((ScalaJS.is.Ljapgolly_scalajs_react_vdom_ScalazImplicits(obj) || (obj === null)) ? obj : ScalaJS.throwClassCastException(obj, "japgolly.scalajs.react.vdom.ScalazImplicits"))
+});
+ScalaJS.isArrayOf.Ljapgolly_scalajs_react_vdom_ScalazImplicits = (function(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Ljapgolly_scalajs_react_vdom_ScalazImplicits)))
+});
+ScalaJS.asArrayOf.Ljapgolly_scalajs_react_vdom_ScalazImplicits = (function(obj, depth) {
+  return ((ScalaJS.isArrayOf.Ljapgolly_scalajs_react_vdom_ScalazImplicits(obj, depth) || (obj === null)) ? obj : ScalaJS.throwArrayCastException(obj, "Ljapgolly.scalajs.react.vdom.ScalazImplicits;", depth))
+});
+ScalaJS.d.Ljapgolly_scalajs_react_vdom_ScalazImplicits = new ScalaJS.ClassTypeData({
+  Ljapgolly_scalajs_react_vdom_ScalazImplicits: 0
+}, false, "japgolly.scalajs.react.vdom.ScalazImplicits", ScalaJS.d.O, {
+  Ljapgolly_scalajs_react_vdom_ScalazImplicits: 1,
+  O: 1
+});
+ScalaJS.c.Ljapgolly_scalajs_react_vdom_ScalazImplicits.prototype.$classData = ScalaJS.d.Ljapgolly_scalajs_react_vdom_ScalazImplicits;
+/** @constructor */
 ScalaJS.c.Ljapgolly_scalajs_react_vdom_Style = (function() {
   ScalaJS.c.O.call(this);
   this.jsName$1 = null;
@@ -7732,6 +8013,9 @@ ScalaJS.h.Ljapgolly_scalajs_react_vdom_package$$anon$1 = (function() {
   /*<skip>*/
 });
 ScalaJS.h.Ljapgolly_scalajs_react_vdom_package$$anon$1.prototype = ScalaJS.c.Ljapgolly_scalajs_react_vdom_package$$anon$1.prototype;
+ScalaJS.c.Ljapgolly_scalajs_react_vdom_package$$anon$1.prototype.init___ = (function() {
+  return this
+});
 ScalaJS.c.Ljapgolly_scalajs_react_vdom_package$$anon$1.prototype.applyTo__Ljapgolly_scalajs_react_vdom_Builder__V = (function(t) {
   /*<skip>*/
 });
@@ -17913,6 +18197,37 @@ ScalaJS.c.sjsr_RuntimeLongImpl$.prototype.fromDouble__D__sjsr_RuntimeLong = (fun
     return new ScalaJS.c.sjsr_RuntimeLong().init___I__I__I(a0, a1, a2)
   }
 });
+ScalaJS.c.sjsr_RuntimeLongImpl$.prototype.fromString0$1__p1__T__sjsr_RuntimeLong__T__I__I__sjsr_RuntimeLong = (function(str0, acc, str$1, radix$1, maxLen$1) {
+  _fromString0: while (true) {
+    if ((ScalaJS.i.sjsr_RuntimeString$class__length__sjsr_RuntimeString__I(str0) > 0)) {
+      var cur = ScalaJS.as.T(str0["substring"](0, maxLen$1));
+      var jsx$1 = acc;
+      var y = ScalaJS.i.sjsr_RuntimeString$class__length__sjsr_RuntimeString__I(cur);
+      var value = (ScalaJS.uD(ScalaJS.g["Math"]["pow"](radix$1, y)) | 0);
+      var macc = jsx$1.$$times__sjsr_RuntimeLong__sjsr_RuntimeLong(new ScalaJS.c.sjsr_RuntimeLong().init___I(value));
+      var ival = ScalaJS.uD(ScalaJS.g["parseInt"](cur, radix$1));
+      if (ScalaJS.uZ(ScalaJS.g["isNaN"](ival))) {
+        throw new ScalaJS.c.jl_NumberFormatException().init___T(new ScalaJS.c.s_StringContext().init___sc_Seq(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array(["For input string: \"", "\""])).s__sc_Seq__T(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([str$1])))
+      };
+      var value$1 = (ival | 0);
+      var cval = new ScalaJS.c.sjsr_RuntimeLong().init___I(value$1);
+      var temp$str0 = ScalaJS.as.T(str0["substring"](maxLen$1));
+      var temp$acc = macc.$$plus__sjsr_RuntimeLong__sjsr_RuntimeLong(cval);
+      str0 = temp$str0;
+      acc = temp$acc;
+      continue _fromString0
+    } else {
+      return acc
+    }
+  }
+});
+ScalaJS.c.sjsr_RuntimeLongImpl$.prototype.fromString__T__I__sjsr_RuntimeLong = (function(str, radix) {
+  if (ScalaJS.i.sjsr_RuntimeString$class__isEmpty__sjsr_RuntimeString__Z(str)) {
+    throw new ScalaJS.c.jl_NumberFormatException().init___T(new ScalaJS.c.s_StringContext().init___sc_Seq(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array(["For input string: \"", "\""])).s__sc_Seq__T(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([str])))
+  } else {
+    return ((ScalaJS.i.sjsr_RuntimeString$class__charAt__sjsr_RuntimeString__I__C(str, 0) === 45) ? this.fromString__T__I__sjsr_RuntimeLong(ScalaJS.i.sjsr_RuntimeString$class__substring__sjsr_RuntimeString__I__T(str, 1), radix).unary$und$minus__sjsr_RuntimeLong() : this.fromString0$1__p1__T__sjsr_RuntimeLong__T__I__I__sjsr_RuntimeLong(str, this.Zero$1, str, radix, 9))
+  }
+});
 ScalaJS.is.sjsr_RuntimeLongImpl$ = (function(obj) {
   return (!(!((obj && obj.$classData) && obj.$classData.ancestors.sjsr_RuntimeLongImpl$)))
 });
@@ -18951,97 +19266,363 @@ ScalaJS.d.sr_VolatileByteRef = new ScalaJS.ClassTypeData({
 });
 ScalaJS.c.sr_VolatileByteRef.prototype.$classData = ScalaJS.d.sr_VolatileByteRef;
 /** @constructor */
-ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$1 = (function() {
+ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$10 = (function() {
   ScalaJS.c.sr_AbstractFunction1.call(this)
 });
-ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$1.prototype = new ScalaJS.h.sr_AbstractFunction1();
-ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$1.prototype.constructor = ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$1;
+ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$10.prototype = new ScalaJS.h.sr_AbstractFunction1();
+ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$10.prototype.constructor = ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$10;
 /** @constructor */
-ScalaJS.h.Lcom_chandu0101_router_AppRouter$$anonfun$1 = (function() {
+ScalaJS.h.Lcom_chandu0101_router_AppRouter$$anonfun$10 = (function() {
   /*<skip>*/
 });
-ScalaJS.h.Lcom_chandu0101_router_AppRouter$$anonfun$1.prototype = ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$1.prototype;
-ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$1.prototype.apply__Ljapgolly_scalajs_react_extras_router_Router__Ljapgolly_scalajs_react_ReactElement = (function(router) {
+ScalaJS.h.Lcom_chandu0101_router_AppRouter$$anonfun$10.prototype = ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$10.prototype;
+ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$10.prototype.apply__O__O = (function(v1) {
+  return this.apply__Lcom_chandu0101_router_AppRouter$PersonId__Ljapgolly_scalajs_react_ReactElement(ScalaJS.as.Lcom_chandu0101_router_AppRouter$PersonId(v1))
+});
+ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$10.prototype.apply__Lcom_chandu0101_router_AppRouter$PersonId__Ljapgolly_scalajs_react_ReactElement = (function(p) {
   ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up();
-  var jsx$5 = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$Tags()).div$1;
-  var jsx$4 = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$Tags()).p$1.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_ReactTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([(ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), new ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$ReactNodeFrag().init___Ljapgolly_scalajs_react_ReactNode((ScalaJS.m.Ljapgolly_scalajs_react_package(), "This is the root page. Click on a link below to view routes within this page.")))]));
-  var jsx$3 = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$Tags()).div$1;
-  var jsx$2 = router.link__Ljapgolly_scalajs_react_extras_router_ApprovedPath__Ljapgolly_scalajs_react_vdom_ReactTag(ScalaJS.m.Lcom_chandu0101_router_AppRouter$AppPage().hello$1);
+  var jsx$1 = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$Tags()).h3$1;
   ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up();
-  var jsx$1 = new ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$ReactNodeFrag().init___Ljapgolly_scalajs_react_ReactNode((ScalaJS.m.Ljapgolly_scalajs_react_package(), "The 'hello' route"));
-  var this$10 = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$Attrs()).cls$1;
-  var ev = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_Scalatags().stringAttrX$1);
-  var t = jsx$5.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_ReactTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([jsx$4, jsx$3.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_ReactTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([jsx$2.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_ReactTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([jsx$1, new ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$AttrPair().init___Ljapgolly_scalajs_react_vdom_Attr__O__Ljapgolly_scalajs_react_vdom_Scalatags$AttrValue(this$10, "hello", ev)]))]))]));
+  var v = new ScalaJS.c.s_StringContext().init___sc_Seq(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array(["Person #", " Details..."])).s__sc_Seq__T(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([p.value$1]));
+  var t = jsx$1.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_ReactTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([new ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$ReactNodeFrag().init___Ljapgolly_scalajs_react_ReactNode((ScalaJS.m.Ljapgolly_scalajs_react_package(), v))]));
   return t.render__Ljapgolly_scalajs_react_ReactElement()
 });
-ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$1.prototype.apply__O__O = (function(v1) {
+ScalaJS.is.Lcom_chandu0101_router_AppRouter$$anonfun$10 = (function(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lcom_chandu0101_router_AppRouter$$anonfun$10)))
+});
+ScalaJS.as.Lcom_chandu0101_router_AppRouter$$anonfun$10 = (function(obj) {
+  return ((ScalaJS.is.Lcom_chandu0101_router_AppRouter$$anonfun$10(obj) || (obj === null)) ? obj : ScalaJS.throwClassCastException(obj, "com.chandu0101.router.AppRouter$$anonfun$10"))
+});
+ScalaJS.isArrayOf.Lcom_chandu0101_router_AppRouter$$anonfun$10 = (function(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lcom_chandu0101_router_AppRouter$$anonfun$10)))
+});
+ScalaJS.asArrayOf.Lcom_chandu0101_router_AppRouter$$anonfun$10 = (function(obj, depth) {
+  return ((ScalaJS.isArrayOf.Lcom_chandu0101_router_AppRouter$$anonfun$10(obj, depth) || (obj === null)) ? obj : ScalaJS.throwArrayCastException(obj, "Lcom.chandu0101.router.AppRouter$$anonfun$10;", depth))
+});
+ScalaJS.d.Lcom_chandu0101_router_AppRouter$$anonfun$10 = new ScalaJS.ClassTypeData({
+  Lcom_chandu0101_router_AppRouter$$anonfun$10: 0
+}, false, "com.chandu0101.router.AppRouter$$anonfun$10", ScalaJS.d.sr_AbstractFunction1, {
+  Lcom_chandu0101_router_AppRouter$$anonfun$10: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1,
+  sr_AbstractFunction1: 1,
+  F1: 1,
+  O: 1
+});
+ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$10.prototype.$classData = ScalaJS.d.Lcom_chandu0101_router_AppRouter$$anonfun$10;
+/** @constructor */
+ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$7 = (function() {
+  ScalaJS.c.sr_AbstractFunction1.call(this)
+});
+ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$7.prototype = new ScalaJS.h.sr_AbstractFunction1();
+ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$7.prototype.constructor = ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$7;
+/** @constructor */
+ScalaJS.h.Lcom_chandu0101_router_AppRouter$$anonfun$7 = (function() {
+  /*<skip>*/
+});
+ScalaJS.h.Lcom_chandu0101_router_AppRouter$$anonfun$7.prototype = ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$7.prototype;
+ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$7.prototype.apply__Ljapgolly_scalajs_react_extras_router_Router__Ljapgolly_scalajs_react_ReactElement = (function(router) {
+  ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up();
+  var jsx$16 = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$Tags()).div$1;
+  var jsx$15 = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$Tags()).h2$1.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_ReactTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([(ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), new ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$ReactNodeFrag().init___Ljapgolly_scalajs_react_ReactNode((ScalaJS.m.Ljapgolly_scalajs_react_package(), "Router Demonstration")))]));
+  var jsx$14 = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$Tags()).p$1.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_ReactTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([(ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), new ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$ReactNodeFrag().init___Ljapgolly_scalajs_react_ReactNode((ScalaJS.m.Ljapgolly_scalajs_react_package(), "This is the root page. Click on a link below to view routes within this page.")))]));
+  var jsx$13 = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$Tags()).div$1;
+  var jsx$12 = router.link__Ljapgolly_scalajs_react_extras_router_ApprovedPath__Ljapgolly_scalajs_react_vdom_ReactTag(ScalaJS.m.Lcom_chandu0101_router_AppRouter$AppPage().hello$1);
+  ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up();
+  var jsx$11 = new ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$ReactNodeFrag().init___Ljapgolly_scalajs_react_ReactNode((ScalaJS.m.Ljapgolly_scalajs_react_package(), "The 'hello' route"));
+  var this$13 = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$Attrs()).cls$1;
+  var ev = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_Scalatags().stringAttrX$1);
+  var jsx$10 = jsx$13.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_ReactTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([jsx$12.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_ReactTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([jsx$11, new ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$AttrPair().init___Ljapgolly_scalajs_react_vdom_Attr__O__Ljapgolly_scalajs_react_vdom_Scalatags$AttrValue(this$13, "hello", ev)]))]));
+  var jsx$9 = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$Tags()).div$1;
+  var jsx$8 = router.link__Ljapgolly_scalajs_react_extras_router_ApprovedPath__Ljapgolly_scalajs_react_vdom_ReactTag(ScalaJS.as.Ljapgolly_scalajs_react_extras_router_ApprovedPath(ScalaJS.m.Lcom_chandu0101_router_AppRouter$AppPage().name$1.apply__O__O("bob")));
+  ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up();
+  var jsx$7 = new ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$ReactNodeFrag().init___Ljapgolly_scalajs_react_ReactNode((ScalaJS.m.Ljapgolly_scalajs_react_package(), "Name('bob')"));
+  var this$19 = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$Attrs()).cls$1;
+  var ev$1 = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_Scalatags().stringAttrX$1);
+  var jsx$6 = jsx$9.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_ReactTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([jsx$8.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_ReactTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([jsx$7, new ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$AttrPair().init___Ljapgolly_scalajs_react_vdom_Attr__O__Ljapgolly_scalajs_react_vdom_Scalatags$AttrValue(this$19, "n1", ev$1)]))]));
+  var jsx$5 = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$Tags()).a$1;
+  var this$24 = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$Attrs()).href$1;
+  var this$22 = ScalaJS.as.Ljapgolly_scalajs_react_extras_router_DynamicLocation(ScalaJS.m.Lcom_chandu0101_router_AppRouter$AppPage().name$1.apply__O__O("bob")).path$1;
+  var base = ScalaJS.m.Lcom_chandu0101_router_AppRouter().baseUrl2$1;
+  var v = base.$$div__Ljapgolly_scalajs_react_extras_router_Path__Ljapgolly_scalajs_react_extras_router_AbsUrl(this$22).value$1;
+  var ev$2 = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_Scalatags().stringAttrX$1);
+  var jsx$4 = jsx$5.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_ReactTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([new ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$AttrPair().init___Ljapgolly_scalajs_react_vdom_Attr__O__Ljapgolly_scalajs_react_vdom_Scalatags$AttrValue(this$24, v, ev$2)])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_ReactTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([(ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), new ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$ReactNodeFrag().init___Ljapgolly_scalajs_react_ReactNode((ScalaJS.m.Ljapgolly_scalajs_react_package(), "fuck it")))]));
+  var jsx$3 = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$Tags()).div$1;
+  var jsx$2 = router.link__Ljapgolly_scalajs_react_extras_router_ApprovedPath__Ljapgolly_scalajs_react_vdom_ReactTag(ScalaJS.as.Ljapgolly_scalajs_react_extras_router_ApprovedPath(ScalaJS.m.Lcom_chandu0101_router_AppRouter$AppPage().name$1.apply__O__O("crap")));
+  ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up();
+  var jsx$1 = new ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$ReactNodeFrag().init___Ljapgolly_scalajs_react_ReactNode((ScalaJS.m.Ljapgolly_scalajs_react_package(), "Name('crap')"));
+  var this$32 = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$Attrs()).cls$1;
+  var ev$3 = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_Scalatags().stringAttrX$1);
+  var t = jsx$16.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_ReactTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([jsx$15, jsx$14, jsx$10, jsx$6, jsx$4, jsx$3.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_ReactTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([jsx$2.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_ReactTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([jsx$1, new ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$AttrPair().init___Ljapgolly_scalajs_react_vdom_Attr__O__Ljapgolly_scalajs_react_vdom_Scalatags$AttrValue(this$32, "n2", ev$3)]))]))]));
+  return t.render__Ljapgolly_scalajs_react_ReactElement()
+});
+ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$7.prototype.apply__O__O = (function(v1) {
   return this.apply__Ljapgolly_scalajs_react_extras_router_Router__Ljapgolly_scalajs_react_ReactElement(ScalaJS.as.Ljapgolly_scalajs_react_extras_router_Router(v1))
 });
-ScalaJS.is.Lcom_chandu0101_router_AppRouter$$anonfun$1 = (function(obj) {
-  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lcom_chandu0101_router_AppRouter$$anonfun$1)))
+ScalaJS.is.Lcom_chandu0101_router_AppRouter$$anonfun$7 = (function(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lcom_chandu0101_router_AppRouter$$anonfun$7)))
 });
-ScalaJS.as.Lcom_chandu0101_router_AppRouter$$anonfun$1 = (function(obj) {
-  return ((ScalaJS.is.Lcom_chandu0101_router_AppRouter$$anonfun$1(obj) || (obj === null)) ? obj : ScalaJS.throwClassCastException(obj, "com.chandu0101.router.AppRouter$$anonfun$1"))
+ScalaJS.as.Lcom_chandu0101_router_AppRouter$$anonfun$7 = (function(obj) {
+  return ((ScalaJS.is.Lcom_chandu0101_router_AppRouter$$anonfun$7(obj) || (obj === null)) ? obj : ScalaJS.throwClassCastException(obj, "com.chandu0101.router.AppRouter$$anonfun$7"))
 });
-ScalaJS.isArrayOf.Lcom_chandu0101_router_AppRouter$$anonfun$1 = (function(obj, depth) {
-  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lcom_chandu0101_router_AppRouter$$anonfun$1)))
+ScalaJS.isArrayOf.Lcom_chandu0101_router_AppRouter$$anonfun$7 = (function(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lcom_chandu0101_router_AppRouter$$anonfun$7)))
 });
-ScalaJS.asArrayOf.Lcom_chandu0101_router_AppRouter$$anonfun$1 = (function(obj, depth) {
-  return ((ScalaJS.isArrayOf.Lcom_chandu0101_router_AppRouter$$anonfun$1(obj, depth) || (obj === null)) ? obj : ScalaJS.throwArrayCastException(obj, "Lcom.chandu0101.router.AppRouter$$anonfun$1;", depth))
+ScalaJS.asArrayOf.Lcom_chandu0101_router_AppRouter$$anonfun$7 = (function(obj, depth) {
+  return ((ScalaJS.isArrayOf.Lcom_chandu0101_router_AppRouter$$anonfun$7(obj, depth) || (obj === null)) ? obj : ScalaJS.throwArrayCastException(obj, "Lcom.chandu0101.router.AppRouter$$anonfun$7;", depth))
 });
-ScalaJS.d.Lcom_chandu0101_router_AppRouter$$anonfun$1 = new ScalaJS.ClassTypeData({
-  Lcom_chandu0101_router_AppRouter$$anonfun$1: 0
-}, false, "com.chandu0101.router.AppRouter$$anonfun$1", ScalaJS.d.sr_AbstractFunction1, {
-  Lcom_chandu0101_router_AppRouter$$anonfun$1: 1,
+ScalaJS.d.Lcom_chandu0101_router_AppRouter$$anonfun$7 = new ScalaJS.ClassTypeData({
+  Lcom_chandu0101_router_AppRouter$$anonfun$7: 0
+}, false, "com.chandu0101.router.AppRouter$$anonfun$7", ScalaJS.d.sr_AbstractFunction1, {
+  Lcom_chandu0101_router_AppRouter$$anonfun$7: 1,
   s_Serializable: 1,
   Ljava_io_Serializable: 1,
   sr_AbstractFunction1: 1,
   F1: 1,
   O: 1
 });
-ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$1.prototype.$classData = ScalaJS.d.Lcom_chandu0101_router_AppRouter$$anonfun$1;
+ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$7.prototype.$classData = ScalaJS.d.Lcom_chandu0101_router_AppRouter$$anonfun$7;
 /** @constructor */
-ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$2 = (function() {
+ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$8 = (function() {
   ScalaJS.c.sr_AbstractFunction1.call(this)
 });
-ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$2.prototype = new ScalaJS.h.sr_AbstractFunction1();
-ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$2.prototype.constructor = ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$2;
+ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$8.prototype = new ScalaJS.h.sr_AbstractFunction1();
+ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$8.prototype.constructor = ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$8;
 /** @constructor */
-ScalaJS.h.Lcom_chandu0101_router_AppRouter$$anonfun$2 = (function() {
+ScalaJS.h.Lcom_chandu0101_router_AppRouter$$anonfun$8 = (function() {
   /*<skip>*/
 });
-ScalaJS.h.Lcom_chandu0101_router_AppRouter$$anonfun$2.prototype = ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$2.prototype;
-ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$2.prototype.apply__O__O = (function(v1) {
+ScalaJS.h.Lcom_chandu0101_router_AppRouter$$anonfun$8.prototype = ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$8.prototype;
+ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$8.prototype.apply__O__O = (function(v1) {
   return this.apply__sr_BoxedUnit__Ljapgolly_scalajs_react_ReactElement(ScalaJS.asUnit(v1))
 });
-ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$2.prototype.apply__sr_BoxedUnit__Ljapgolly_scalajs_react_ReactElement = (function(x$1) {
+ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$8.prototype.apply__sr_BoxedUnit__Ljapgolly_scalajs_react_ReactElement = (function(x$1) {
   ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up();
-  var t = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$Tags()).h3$1.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_ReactTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([(ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), new ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$ReactNodeFrag().init___Ljapgolly_scalajs_react_ReactNode((ScalaJS.m.Ljapgolly_scalajs_react_package(), "Hello there!")))]));
+  var jsx$3 = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$Tags()).div$1;
+  var jsx$2 = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$Tags()).h3$1.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_ReactTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([(ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), new ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$ReactNodeFrag().init___Ljapgolly_scalajs_react_ReactNode((ScalaJS.m.Ljapgolly_scalajs_react_package(), "Hello there!")))]));
+  var jsx$1 = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$Tags()).a$1;
+  var this$9 = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$Attrs()).href$1;
+  var this$7 = ScalaJS.as.Ljapgolly_scalajs_react_extras_router_DynamicLocation(ScalaJS.m.Lcom_chandu0101_router_AppRouter$AppPage().name$1.apply__O__O("bob")).path$1;
+  var base = ScalaJS.m.Lcom_chandu0101_router_AppRouter().baseUrl2$1;
+  var v = base.$$div__Ljapgolly_scalajs_react_extras_router_Path__Ljapgolly_scalajs_react_extras_router_AbsUrl(this$7).value$1;
+  var ev = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_Scalatags().stringAttrX$1);
+  var t = jsx$3.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_ReactTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([jsx$2, jsx$1.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_ReactTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([new ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$AttrPair().init___Ljapgolly_scalajs_react_vdom_Attr__O__Ljapgolly_scalajs_react_vdom_Scalatags$AttrValue(this$9, v, ev)])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_ReactTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([(ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), new ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$ReactNodeFrag().init___Ljapgolly_scalajs_react_ReactNode((ScalaJS.m.Ljapgolly_scalajs_react_package(), "fuck it")))]))]));
   return t.render__Ljapgolly_scalajs_react_ReactElement()
 });
-ScalaJS.is.Lcom_chandu0101_router_AppRouter$$anonfun$2 = (function(obj) {
-  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lcom_chandu0101_router_AppRouter$$anonfun$2)))
+ScalaJS.is.Lcom_chandu0101_router_AppRouter$$anonfun$8 = (function(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lcom_chandu0101_router_AppRouter$$anonfun$8)))
 });
-ScalaJS.as.Lcom_chandu0101_router_AppRouter$$anonfun$2 = (function(obj) {
-  return ((ScalaJS.is.Lcom_chandu0101_router_AppRouter$$anonfun$2(obj) || (obj === null)) ? obj : ScalaJS.throwClassCastException(obj, "com.chandu0101.router.AppRouter$$anonfun$2"))
+ScalaJS.as.Lcom_chandu0101_router_AppRouter$$anonfun$8 = (function(obj) {
+  return ((ScalaJS.is.Lcom_chandu0101_router_AppRouter$$anonfun$8(obj) || (obj === null)) ? obj : ScalaJS.throwClassCastException(obj, "com.chandu0101.router.AppRouter$$anonfun$8"))
 });
-ScalaJS.isArrayOf.Lcom_chandu0101_router_AppRouter$$anonfun$2 = (function(obj, depth) {
-  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lcom_chandu0101_router_AppRouter$$anonfun$2)))
+ScalaJS.isArrayOf.Lcom_chandu0101_router_AppRouter$$anonfun$8 = (function(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lcom_chandu0101_router_AppRouter$$anonfun$8)))
 });
-ScalaJS.asArrayOf.Lcom_chandu0101_router_AppRouter$$anonfun$2 = (function(obj, depth) {
-  return ((ScalaJS.isArrayOf.Lcom_chandu0101_router_AppRouter$$anonfun$2(obj, depth) || (obj === null)) ? obj : ScalaJS.throwArrayCastException(obj, "Lcom.chandu0101.router.AppRouter$$anonfun$2;", depth))
+ScalaJS.asArrayOf.Lcom_chandu0101_router_AppRouter$$anonfun$8 = (function(obj, depth) {
+  return ((ScalaJS.isArrayOf.Lcom_chandu0101_router_AppRouter$$anonfun$8(obj, depth) || (obj === null)) ? obj : ScalaJS.throwArrayCastException(obj, "Lcom.chandu0101.router.AppRouter$$anonfun$8;", depth))
 });
-ScalaJS.d.Lcom_chandu0101_router_AppRouter$$anonfun$2 = new ScalaJS.ClassTypeData({
-  Lcom_chandu0101_router_AppRouter$$anonfun$2: 0
-}, false, "com.chandu0101.router.AppRouter$$anonfun$2", ScalaJS.d.sr_AbstractFunction1, {
-  Lcom_chandu0101_router_AppRouter$$anonfun$2: 1,
+ScalaJS.d.Lcom_chandu0101_router_AppRouter$$anonfun$8 = new ScalaJS.ClassTypeData({
+  Lcom_chandu0101_router_AppRouter$$anonfun$8: 0
+}, false, "com.chandu0101.router.AppRouter$$anonfun$8", ScalaJS.d.sr_AbstractFunction1, {
+  Lcom_chandu0101_router_AppRouter$$anonfun$8: 1,
   s_Serializable: 1,
   Ljava_io_Serializable: 1,
   sr_AbstractFunction1: 1,
   F1: 1,
   O: 1
 });
-ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$2.prototype.$classData = ScalaJS.d.Lcom_chandu0101_router_AppRouter$$anonfun$2;
+ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$8.prototype.$classData = ScalaJS.d.Lcom_chandu0101_router_AppRouter$$anonfun$8;
+/** @constructor */
+ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$9 = (function() {
+  ScalaJS.c.sr_AbstractFunction1.call(this)
+});
+ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$9.prototype = new ScalaJS.h.sr_AbstractFunction1();
+ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$9.prototype.constructor = ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$9;
+/** @constructor */
+ScalaJS.h.Lcom_chandu0101_router_AppRouter$$anonfun$9 = (function() {
+  /*<skip>*/
+});
+ScalaJS.h.Lcom_chandu0101_router_AppRouter$$anonfun$9.prototype = ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$9.prototype;
+ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$9.prototype.apply__T__Ljapgolly_scalajs_react_ReactElement = (function(name) {
+  ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up();
+  var jsx$1 = (ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up(), ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$Tags()).h3$1;
+  ScalaJS.m.Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up();
+  var v = new ScalaJS.c.s_StringContext().init___sc_Seq(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array(["I believe your name is '", "'."])).s__sc_Seq__T(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([name]));
+  var t = jsx$1.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_ReactTag(new ScalaJS.c.sjs_js_WrappedArray().init___sjs_js_Array([new ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$ReactNodeFrag().init___Ljapgolly_scalajs_react_ReactNode((ScalaJS.m.Ljapgolly_scalajs_react_package(), v))]));
+  return t.render__Ljapgolly_scalajs_react_ReactElement()
+});
+ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$9.prototype.apply__O__O = (function(v1) {
+  return this.apply__T__Ljapgolly_scalajs_react_ReactElement(ScalaJS.as.T(v1))
+});
+ScalaJS.is.Lcom_chandu0101_router_AppRouter$$anonfun$9 = (function(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lcom_chandu0101_router_AppRouter$$anonfun$9)))
+});
+ScalaJS.as.Lcom_chandu0101_router_AppRouter$$anonfun$9 = (function(obj) {
+  return ((ScalaJS.is.Lcom_chandu0101_router_AppRouter$$anonfun$9(obj) || (obj === null)) ? obj : ScalaJS.throwClassCastException(obj, "com.chandu0101.router.AppRouter$$anonfun$9"))
+});
+ScalaJS.isArrayOf.Lcom_chandu0101_router_AppRouter$$anonfun$9 = (function(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lcom_chandu0101_router_AppRouter$$anonfun$9)))
+});
+ScalaJS.asArrayOf.Lcom_chandu0101_router_AppRouter$$anonfun$9 = (function(obj, depth) {
+  return ((ScalaJS.isArrayOf.Lcom_chandu0101_router_AppRouter$$anonfun$9(obj, depth) || (obj === null)) ? obj : ScalaJS.throwArrayCastException(obj, "Lcom.chandu0101.router.AppRouter$$anonfun$9;", depth))
+});
+ScalaJS.d.Lcom_chandu0101_router_AppRouter$$anonfun$9 = new ScalaJS.ClassTypeData({
+  Lcom_chandu0101_router_AppRouter$$anonfun$9: 0
+}, false, "com.chandu0101.router.AppRouter$$anonfun$9", ScalaJS.d.sr_AbstractFunction1, {
+  Lcom_chandu0101_router_AppRouter$$anonfun$9: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1,
+  sr_AbstractFunction1: 1,
+  F1: 1,
+  O: 1
+});
+ScalaJS.c.Lcom_chandu0101_router_AppRouter$$anonfun$9.prototype.$classData = ScalaJS.d.Lcom_chandu0101_router_AppRouter$$anonfun$9;
+/** @constructor */
+ScalaJS.c.Lcom_chandu0101_router_AppRouter$AppPage$$anonfun$1 = (function() {
+  ScalaJS.c.sr_AbstractPartialFunction.call(this)
+});
+ScalaJS.c.Lcom_chandu0101_router_AppRouter$AppPage$$anonfun$1.prototype = new ScalaJS.h.sr_AbstractPartialFunction();
+ScalaJS.c.Lcom_chandu0101_router_AppRouter$AppPage$$anonfun$1.prototype.constructor = ScalaJS.c.Lcom_chandu0101_router_AppRouter$AppPage$$anonfun$1;
+/** @constructor */
+ScalaJS.h.Lcom_chandu0101_router_AppRouter$AppPage$$anonfun$1 = (function() {
+  /*<skip>*/
+});
+ScalaJS.h.Lcom_chandu0101_router_AppRouter$AppPage$$anonfun$1.prototype = ScalaJS.c.Lcom_chandu0101_router_AppRouter$AppPage$$anonfun$1.prototype;
+ScalaJS.c.Lcom_chandu0101_router_AppRouter$AppPage$$anonfun$1.prototype.isDefinedAt__T__Z = (function(x1) {
+  var o7 = ScalaJS.m.Lcom_chandu0101_router_AppRouter$AppPage().com$chandu0101$router$AppRouter$AppPage$$namePathMatch$1.unapplySeq__jl_CharSequence__s_Option(x1);
+  if ((!o7.isEmpty__Z())) {
+    if ((o7.get__O() !== null)) {
+      var this$1 = ScalaJS.as.sc_LinearSeqOptimized(o7.get__O());
+      var jsx$1 = (ScalaJS.i.sc_LinearSeqOptimized$class__lengthCompare__sc_LinearSeqOptimized__I__I(this$1, 1) === 0)
+    } else {
+      var jsx$1 = false
+    };
+    if (jsx$1) {
+      return true
+    }
+  };
+  return false
+});
+ScalaJS.c.Lcom_chandu0101_router_AppRouter$AppPage$$anonfun$1.prototype.applyOrElse__T__F1__O = (function(x1, default$2) {
+  var o7 = ScalaJS.m.Lcom_chandu0101_router_AppRouter$AppPage().com$chandu0101$router$AppRouter$AppPage$$namePathMatch$1.unapplySeq__jl_CharSequence__s_Option(x1);
+  if ((!o7.isEmpty__Z())) {
+    if ((o7.get__O() !== null)) {
+      var this$1 = ScalaJS.as.sc_LinearSeqOptimized(o7.get__O());
+      var jsx$1 = (ScalaJS.i.sc_LinearSeqOptimized$class__lengthCompare__sc_LinearSeqOptimized__I__I(this$1, 1) === 0)
+    } else {
+      var jsx$1 = false
+    };
+    if (jsx$1) {
+      var this$2 = ScalaJS.as.sc_LinearSeqOptimized(o7.get__O());
+      var n = ScalaJS.as.T(ScalaJS.i.sc_LinearSeqOptimized$class__apply__sc_LinearSeqOptimized__I__O(this$2, 0));
+      return n
+    }
+  };
+  return default$2.apply__O__O(x1)
+});
+ScalaJS.c.Lcom_chandu0101_router_AppRouter$AppPage$$anonfun$1.prototype.isDefinedAt__O__Z = (function(x) {
+  return this.isDefinedAt__T__Z(ScalaJS.as.T(x))
+});
+ScalaJS.c.Lcom_chandu0101_router_AppRouter$AppPage$$anonfun$1.prototype.applyOrElse__O__F1__O = (function(x, default$2) {
+  return this.applyOrElse__T__F1__O(ScalaJS.as.T(x), default$2)
+});
+ScalaJS.is.Lcom_chandu0101_router_AppRouter$AppPage$$anonfun$1 = (function(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lcom_chandu0101_router_AppRouter$AppPage$$anonfun$1)))
+});
+ScalaJS.as.Lcom_chandu0101_router_AppRouter$AppPage$$anonfun$1 = (function(obj) {
+  return ((ScalaJS.is.Lcom_chandu0101_router_AppRouter$AppPage$$anonfun$1(obj) || (obj === null)) ? obj : ScalaJS.throwClassCastException(obj, "com.chandu0101.router.AppRouter$AppPage$$anonfun$1"))
+});
+ScalaJS.isArrayOf.Lcom_chandu0101_router_AppRouter$AppPage$$anonfun$1 = (function(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lcom_chandu0101_router_AppRouter$AppPage$$anonfun$1)))
+});
+ScalaJS.asArrayOf.Lcom_chandu0101_router_AppRouter$AppPage$$anonfun$1 = (function(obj, depth) {
+  return ((ScalaJS.isArrayOf.Lcom_chandu0101_router_AppRouter$AppPage$$anonfun$1(obj, depth) || (obj === null)) ? obj : ScalaJS.throwArrayCastException(obj, "Lcom.chandu0101.router.AppRouter$AppPage$$anonfun$1;", depth))
+});
+ScalaJS.d.Lcom_chandu0101_router_AppRouter$AppPage$$anonfun$1 = new ScalaJS.ClassTypeData({
+  Lcom_chandu0101_router_AppRouter$AppPage$$anonfun$1: 0
+}, false, "com.chandu0101.router.AppRouter$AppPage$$anonfun$1", ScalaJS.d.sr_AbstractPartialFunction, {
+  Lcom_chandu0101_router_AppRouter$AppPage$$anonfun$1: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1,
+  sr_AbstractPartialFunction: 1,
+  s_PartialFunction: 1,
+  F1: 1,
+  O: 1
+});
+ScalaJS.c.Lcom_chandu0101_router_AppRouter$AppPage$$anonfun$1.prototype.$classData = ScalaJS.d.Lcom_chandu0101_router_AppRouter$AppPage$$anonfun$1;
+/** @constructor */
+ScalaJS.c.Lcom_chandu0101_router_AppRouter$AppPage$$anonfun$2 = (function() {
+  ScalaJS.c.sr_AbstractPartialFunction.call(this)
+});
+ScalaJS.c.Lcom_chandu0101_router_AppRouter$AppPage$$anonfun$2.prototype = new ScalaJS.h.sr_AbstractPartialFunction();
+ScalaJS.c.Lcom_chandu0101_router_AppRouter$AppPage$$anonfun$2.prototype.constructor = ScalaJS.c.Lcom_chandu0101_router_AppRouter$AppPage$$anonfun$2;
+/** @constructor */
+ScalaJS.h.Lcom_chandu0101_router_AppRouter$AppPage$$anonfun$2 = (function() {
+  /*<skip>*/
+});
+ScalaJS.h.Lcom_chandu0101_router_AppRouter$AppPage$$anonfun$2.prototype = ScalaJS.c.Lcom_chandu0101_router_AppRouter$AppPage$$anonfun$2.prototype;
+ScalaJS.c.Lcom_chandu0101_router_AppRouter$AppPage$$anonfun$2.prototype.isDefinedAt__T__Z = (function(x2) {
+  var o7 = ScalaJS.m.Lcom_chandu0101_router_AppRouter$AppPage().com$chandu0101$router$AppRouter$AppPage$$personPathMatch$1.unapplySeq__jl_CharSequence__s_Option(x2);
+  if ((!o7.isEmpty__Z())) {
+    if ((o7.get__O() !== null)) {
+      var this$1 = ScalaJS.as.sc_LinearSeqOptimized(o7.get__O());
+      var jsx$1 = (ScalaJS.i.sc_LinearSeqOptimized$class__lengthCompare__sc_LinearSeqOptimized__I__I(this$1, 1) === 0)
+    } else {
+      var jsx$1 = false
+    };
+    if (jsx$1) {
+      return true
+    }
+  };
+  return false
+});
+ScalaJS.c.Lcom_chandu0101_router_AppRouter$AppPage$$anonfun$2.prototype.applyOrElse__T__F1__O = (function(x2, default$2) {
+  var o7 = ScalaJS.m.Lcom_chandu0101_router_AppRouter$AppPage().com$chandu0101$router$AppRouter$AppPage$$personPathMatch$1.unapplySeq__jl_CharSequence__s_Option(x2);
+  if ((!o7.isEmpty__Z())) {
+    if ((o7.get__O() !== null)) {
+      var this$1 = ScalaJS.as.sc_LinearSeqOptimized(o7.get__O());
+      var jsx$1 = (ScalaJS.i.sc_LinearSeqOptimized$class__lengthCompare__sc_LinearSeqOptimized__I__I(this$1, 1) === 0)
+    } else {
+      var jsx$1 = false
+    };
+    if (jsx$1) {
+      var this$2 = ScalaJS.as.sc_LinearSeqOptimized(o7.get__O());
+      var p = ScalaJS.as.T(ScalaJS.i.sc_LinearSeqOptimized$class__apply__sc_LinearSeqOptimized__I__O(this$2, 0));
+      return p
+    }
+  };
+  return default$2.apply__O__O(x2)
+});
+ScalaJS.c.Lcom_chandu0101_router_AppRouter$AppPage$$anonfun$2.prototype.isDefinedAt__O__Z = (function(x) {
+  return this.isDefinedAt__T__Z(ScalaJS.as.T(x))
+});
+ScalaJS.c.Lcom_chandu0101_router_AppRouter$AppPage$$anonfun$2.prototype.applyOrElse__O__F1__O = (function(x, default$2) {
+  return this.applyOrElse__T__F1__O(ScalaJS.as.T(x), default$2)
+});
+ScalaJS.is.Lcom_chandu0101_router_AppRouter$AppPage$$anonfun$2 = (function(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lcom_chandu0101_router_AppRouter$AppPage$$anonfun$2)))
+});
+ScalaJS.as.Lcom_chandu0101_router_AppRouter$AppPage$$anonfun$2 = (function(obj) {
+  return ((ScalaJS.is.Lcom_chandu0101_router_AppRouter$AppPage$$anonfun$2(obj) || (obj === null)) ? obj : ScalaJS.throwClassCastException(obj, "com.chandu0101.router.AppRouter$AppPage$$anonfun$2"))
+});
+ScalaJS.isArrayOf.Lcom_chandu0101_router_AppRouter$AppPage$$anonfun$2 = (function(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lcom_chandu0101_router_AppRouter$AppPage$$anonfun$2)))
+});
+ScalaJS.asArrayOf.Lcom_chandu0101_router_AppRouter$AppPage$$anonfun$2 = (function(obj, depth) {
+  return ((ScalaJS.isArrayOf.Lcom_chandu0101_router_AppRouter$AppPage$$anonfun$2(obj, depth) || (obj === null)) ? obj : ScalaJS.throwArrayCastException(obj, "Lcom.chandu0101.router.AppRouter$AppPage$$anonfun$2;", depth))
+});
+ScalaJS.d.Lcom_chandu0101_router_AppRouter$AppPage$$anonfun$2 = new ScalaJS.ClassTypeData({
+  Lcom_chandu0101_router_AppRouter$AppPage$$anonfun$2: 0
+}, false, "com.chandu0101.router.AppRouter$AppPage$$anonfun$2", ScalaJS.d.sr_AbstractPartialFunction, {
+  Lcom_chandu0101_router_AppRouter$AppPage$$anonfun$2: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1,
+  sr_AbstractPartialFunction: 1,
+  s_PartialFunction: 1,
+  F1: 1,
+  O: 1
+});
+ScalaJS.c.Lcom_chandu0101_router_AppRouter$AppPage$$anonfun$2.prototype.$classData = ScalaJS.d.Lcom_chandu0101_router_AppRouter$AppPage$$anonfun$2;
 /** @constructor */
 ScalaJS.c.Ljapgolly_scalajs_react_Internal$FnComposer$$anonfun$apply$2 = (function() {
   ScalaJS.c.sr_AbstractFunction1.call(this);
@@ -19200,6 +19781,75 @@ ScalaJS.d.Ljapgolly_scalajs_react_ReactComponentB$Builder$$anonfun$3 = new Scala
 });
 ScalaJS.c.Ljapgolly_scalajs_react_ReactComponentB$Builder$$anonfun$3.prototype.$classData = ScalaJS.d.Ljapgolly_scalajs_react_ReactComponentB$Builder$$anonfun$3;
 /** @constructor */
+ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$ = (function() {
+  ScalaJS.c.Ljapgolly_scalajs_react_vdom_ScalazImplicits.call(this);
+  this.IoToIo$2 = null;
+  this.preventDefaultIO$2 = null;
+  this.stopPropagationIO$2 = null
+});
+ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$.prototype = new ScalaJS.h.Ljapgolly_scalajs_react_vdom_ScalazImplicits();
+ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$.prototype.constructor = ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$;
+/** @constructor */
+ScalaJS.h.Ljapgolly_scalajs_react_ScalazReact$ = (function() {
+  /*<skip>*/
+});
+ScalaJS.h.Ljapgolly_scalajs_react_ScalazReact$.prototype = ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$.prototype;
+ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$.prototype.init___ = (function() {
+  ScalaJS.n.Ljapgolly_scalajs_react_ScalazReact = this;
+  var this$1 = ScalaJS.m.Lscalaz_NaturalTransformation();
+  this.IoToIo$2 = new ScalaJS.c.Lscalaz_NaturalTransformations$$anon$1().init___Lscalaz_NaturalTransformations(this$1);
+  this.preventDefaultIO$2 = new ScalaJS.c.sjsr_AnonFunction1().init___sjs_js_Function1((function(x$6$2) {
+    var x$6 = x$6$2;
+    return ScalaJS.m.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undSEvent().preventDefaultIO$extension__Ljapgolly_scalajs_react_SyntheticEvent__Lscalaz_effect_IO((ScalaJS.m.Ljapgolly_scalajs_react_ScalazReact(), x$6))
+  }));
+  this.stopPropagationIO$2 = new ScalaJS.c.sjsr_AnonFunction1().init___sjs_js_Function1((function(x$7$2) {
+    var x$7 = x$7$2;
+    return ScalaJS.m.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undSEvent().stopPropagationIO$extension__Ljapgolly_scalajs_react_SyntheticEvent__Lscalaz_effect_IO((ScalaJS.m.Ljapgolly_scalajs_react_ScalazReact(), x$7))
+  }));
+  return this
+});
+ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$.prototype.OpCallbackFromIO__sjs_js_UndefOr__sjs_js_UndefOr = (function(cb) {
+  if ((cb === (void 0))) {
+    var value = (void 0);
+    return value
+  } else {
+    var f = ScalaJS.as.Lscalaz_effect_IO(cb);
+    var value$1 = new ScalaJS.c.sjsr_AnonFunction0().init___sjs_js_Function0((function(f$16) {
+      return (function() {
+        return (ScalaJS.i.Lscalaz_effect_IO$class__unsafePerformIO__Lscalaz_effect_IO__O(f$16), (void 0))
+      })
+    })(f));
+    return value$1
+  }
+});
+ScalaJS.is.Ljapgolly_scalajs_react_ScalazReact$ = (function(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljapgolly_scalajs_react_ScalazReact$)))
+});
+ScalaJS.as.Ljapgolly_scalajs_react_ScalazReact$ = (function(obj) {
+  return ((ScalaJS.is.Ljapgolly_scalajs_react_ScalazReact$(obj) || (obj === null)) ? obj : ScalaJS.throwClassCastException(obj, "japgolly.scalajs.react.ScalazReact$"))
+});
+ScalaJS.isArrayOf.Ljapgolly_scalajs_react_ScalazReact$ = (function(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Ljapgolly_scalajs_react_ScalazReact$)))
+});
+ScalaJS.asArrayOf.Ljapgolly_scalajs_react_ScalazReact$ = (function(obj, depth) {
+  return ((ScalaJS.isArrayOf.Ljapgolly_scalajs_react_ScalazReact$(obj, depth) || (obj === null)) ? obj : ScalaJS.throwArrayCastException(obj, "Ljapgolly.scalajs.react.ScalazReact$;", depth))
+});
+ScalaJS.d.Ljapgolly_scalajs_react_ScalazReact$ = new ScalaJS.ClassTypeData({
+  Ljapgolly_scalajs_react_ScalazReact$: 0
+}, false, "japgolly.scalajs.react.ScalazReact$", ScalaJS.d.Ljapgolly_scalajs_react_vdom_ScalazImplicits, {
+  Ljapgolly_scalajs_react_ScalazReact$: 1,
+  Ljapgolly_scalajs_react_vdom_ScalazImplicits: 1,
+  O: 1
+});
+ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$.prototype.$classData = ScalaJS.d.Ljapgolly_scalajs_react_ScalazReact$;
+ScalaJS.n.Ljapgolly_scalajs_react_ScalazReact = (void 0);
+ScalaJS.m.Ljapgolly_scalajs_react_ScalazReact = (function() {
+  if ((!ScalaJS.n.Ljapgolly_scalajs_react_ScalazReact)) {
+    ScalaJS.n.Ljapgolly_scalajs_react_ScalazReact = new ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$().init___()
+  };
+  return ScalaJS.n.Ljapgolly_scalajs_react_ScalazReact
+});
+/** @constructor */
 ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$ReactS$$anonfun$modM$1 = (function() {
   ScalaJS.c.sr_AbstractFunction1.call(this);
   this.f$3$2 = null;
@@ -19268,7 +19918,7 @@ ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anon
   var s1 = ScalaJS.as.Ljapgolly_scalajs_react_ScalazReact$StateAndCallbacks(v1);
   var this$1 = ScalaJS.as.Lscalaz_IndexedStateT(this.st$1$2.apply__O());
   var this$2 = ScalaJS.as.Lscalaz_effect_IO(this.M$13$2.apply__O__O(this$1.apply__O__O(s1)));
-  var f = new ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$18().init___Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2__Ljapgolly_scalajs_react_ScalazReact$StateAndCallbacks(this, s1);
+  var f = new ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$20().init___Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2__Ljapgolly_scalajs_react_ScalazReact$StateAndCallbacks(this, s1);
   return ScalaJS.i.Lscalaz_effect_IO$class__flatMap__Lscalaz_effect_IO__F1__Lscalaz_effect_IO(this$2, f)
 });
 ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2.prototype.init___O__Ljapgolly_scalajs_react_package$CompStateAccess__Lscalaz_NaturalTransformation__F0__F4 = (function($$this$5, C$1, M$13, st$1, f$11) {
@@ -19303,19 +19953,19 @@ ScalaJS.d.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anon
 });
 ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2.prototype.$classData = ScalaJS.d.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2;
 /** @constructor */
-ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$18 = (function() {
+ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$20 = (function() {
   ScalaJS.c.sr_AbstractFunction1.call(this);
   this.$$outer$2 = null;
   this.s1$1$2 = null
 });
-ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$18.prototype = new ScalaJS.h.sr_AbstractFunction1();
-ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$18.prototype.constructor = ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$18;
+ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$20.prototype = new ScalaJS.h.sr_AbstractFunction1();
+ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$20.prototype.constructor = ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$20;
 /** @constructor */
-ScalaJS.h.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$18 = (function() {
+ScalaJS.h.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$20 = (function() {
   /*<skip>*/
 });
-ScalaJS.h.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$18.prototype = ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$18.prototype;
-ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$18.prototype.apply__O__O = (function(v1) {
+ScalaJS.h.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$20.prototype = ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$20.prototype;
+ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$20.prototype.apply__O__O = (function(v1) {
   var x0$2 = ScalaJS.as.T2(v1);
   if ((x0$2 !== null)) {
     var s2 = ScalaJS.as.Ljapgolly_scalajs_react_ScalazReact$StateAndCallbacks(x0$2.$$und1$f);
@@ -19323,7 +19973,7 @@ ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anon
     var this$1 = this.$$outer$2.f$11$f;
     var v1$1 = this.s1$1$2.state$1;
     var v2 = s2.state$1;
-    var v4 = new ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$18$$anonfun$apply$19().init___Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$18__Ljapgolly_scalajs_react_ScalazReact$StateAndCallbacks(this, s2);
+    var v4 = new ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$20$$anonfun$apply$21().init___Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$20__Ljapgolly_scalajs_react_ScalazReact$StateAndCallbacks(this, s2);
     if (ScalaJS.uZ(this$1.F$3$2.allowChange$1.apply__O__O__O(v1$1, v2))) {
       var this$3 = ScalaJS.m.Lscalaz_effect_IO().apply__F0__Lscalaz_effect_IO(new ScalaJS.c.sjsr_AnonFunction0().init___sjs_js_Function0((function(arg$outer) {
         return (function() {
@@ -19335,8 +19985,8 @@ ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anon
         })
       })(v4)));
       var f$1 = new ScalaJS.c.sjsr_AnonFunction1().init___sjs_js_Function1((function(a$5) {
-        return (function(x$17$2) {
-          return (ScalaJS.asUnit(x$17$2), a$5)
+        return (function(x$21$2) {
+          return (ScalaJS.asUnit(x$21$2), a$5)
         })
       })(a));
       return ScalaJS.i.Lscalaz_effect_IO$class__map__Lscalaz_effect_IO__F1__Lscalaz_effect_IO(this$3, f$1)
@@ -19351,7 +20001,7 @@ ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anon
     throw new ScalaJS.c.s_MatchError().init___O(x0$2)
   }
 });
-ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$18.prototype.init___Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2__Ljapgolly_scalajs_react_ScalazReact$StateAndCallbacks = (function($$outer, s1$1) {
+ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$20.prototype.init___Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2__Ljapgolly_scalajs_react_ScalazReact$StateAndCallbacks = (function($$outer, s1$1) {
   if (($$outer === null)) {
     throw ScalaJS.unwrapJavaScriptException(null)
   } else {
@@ -19360,43 +20010,52 @@ ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anon
   this.s1$1$2 = s1$1;
   return this
 });
-ScalaJS.is.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$18 = (function(obj) {
-  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$18)))
+ScalaJS.is.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$20 = (function(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$20)))
 });
-ScalaJS.as.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$18 = (function(obj) {
-  return ((ScalaJS.is.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$18(obj) || (obj === null)) ? obj : ScalaJS.throwClassCastException(obj, "japgolly.scalajs.react.ScalazReact$SzRExt_CompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt_CompStateAccessOps$$run$extension$2$$anonfun$apply$18"))
+ScalaJS.as.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$20 = (function(obj) {
+  return ((ScalaJS.is.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$20(obj) || (obj === null)) ? obj : ScalaJS.throwClassCastException(obj, "japgolly.scalajs.react.ScalazReact$SzRExt_CompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt_CompStateAccessOps$$run$extension$2$$anonfun$apply$20"))
 });
-ScalaJS.isArrayOf.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$18 = (function(obj, depth) {
-  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$18)))
+ScalaJS.isArrayOf.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$20 = (function(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$20)))
 });
-ScalaJS.asArrayOf.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$18 = (function(obj, depth) {
-  return ((ScalaJS.isArrayOf.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$18(obj, depth) || (obj === null)) ? obj : ScalaJS.throwArrayCastException(obj, "Ljapgolly.scalajs.react.ScalazReact$SzRExt_CompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt_CompStateAccessOps$$run$extension$2$$anonfun$apply$18;", depth))
+ScalaJS.asArrayOf.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$20 = (function(obj, depth) {
+  return ((ScalaJS.isArrayOf.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$20(obj, depth) || (obj === null)) ? obj : ScalaJS.throwArrayCastException(obj, "Ljapgolly.scalajs.react.ScalazReact$SzRExt_CompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt_CompStateAccessOps$$run$extension$2$$anonfun$apply$20;", depth))
 });
-ScalaJS.d.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$18 = new ScalaJS.ClassTypeData({
-  Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$18: 0
-}, false, "japgolly.scalajs.react.ScalazReact$SzRExt_CompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt_CompStateAccessOps$$run$extension$2$$anonfun$apply$18", ScalaJS.d.sr_AbstractFunction1, {
-  Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$18: 1,
+ScalaJS.d.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$20 = new ScalaJS.ClassTypeData({
+  Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$20: 0
+}, false, "japgolly.scalajs.react.ScalazReact$SzRExt_CompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt_CompStateAccessOps$$run$extension$2$$anonfun$apply$20", ScalaJS.d.sr_AbstractFunction1, {
+  Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$20: 1,
   s_Serializable: 1,
   Ljava_io_Serializable: 1,
   sr_AbstractFunction1: 1,
   F1: 1,
   O: 1
 });
-ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$18.prototype.$classData = ScalaJS.d.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$18;
+ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$20.prototype.$classData = ScalaJS.d.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$20;
 /** @constructor */
-ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$18$$anonfun$apply$19 = (function() {
+ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$20$$anonfun$apply$21 = (function() {
   ScalaJS.c.sr_AbstractFunction0.call(this);
   this.$$outer$2 = null;
   this.s2$1$f = null
 });
-ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$18$$anonfun$apply$19.prototype = new ScalaJS.h.sr_AbstractFunction0();
-ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$18$$anonfun$apply$19.prototype.constructor = ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$18$$anonfun$apply$19;
+ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$20$$anonfun$apply$21.prototype = new ScalaJS.h.sr_AbstractFunction0();
+ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$20$$anonfun$apply$21.prototype.constructor = ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$20$$anonfun$apply$21;
 /** @constructor */
-ScalaJS.h.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$18$$anonfun$apply$19 = (function() {
+ScalaJS.h.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$20$$anonfun$apply$21 = (function() {
   /*<skip>*/
 });
-ScalaJS.h.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$18$$anonfun$apply$19.prototype = ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$18$$anonfun$apply$19.prototype;
-ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$18$$anonfun$apply$19.prototype.apply__O = (function() {
+ScalaJS.h.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$20$$anonfun$apply$21.prototype = ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$20$$anonfun$apply$21.prototype;
+ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$20$$anonfun$apply$21.prototype.init___Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$20__Ljapgolly_scalajs_react_ScalazReact$StateAndCallbacks = (function($$outer, s2$1) {
+  if (($$outer === null)) {
+    throw ScalaJS.unwrapJavaScriptException(null)
+  } else {
+    this.$$outer$2 = $$outer
+  };
+  this.s2$1$f = s2$1;
+  return this
+});
+ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$20$$anonfun$apply$21.prototype.apply__O = (function() {
   return ScalaJS.m.Lscalaz_effect_IO().apply__F0__Lscalaz_effect_IO(new ScalaJS.c.sjsr_AnonFunction0().init___sjs_js_Function0((function(arg$outer) {
     return (function() {
       var this$1 = arg$outer.$$outer$2.$$outer$2.C$1$f;
@@ -19407,38 +20066,29 @@ ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anon
     })
   })(this)))
 });
-ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$18$$anonfun$apply$19.prototype.init___Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$18__Ljapgolly_scalajs_react_ScalazReact$StateAndCallbacks = (function($$outer, s2$1) {
-  if (($$outer === null)) {
-    throw ScalaJS.unwrapJavaScriptException(null)
-  } else {
-    this.$$outer$2 = $$outer
-  };
-  this.s2$1$f = s2$1;
-  return this
+ScalaJS.is.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$20$$anonfun$apply$21 = (function(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$20$$anonfun$apply$21)))
 });
-ScalaJS.is.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$18$$anonfun$apply$19 = (function(obj) {
-  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$18$$anonfun$apply$19)))
+ScalaJS.as.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$20$$anonfun$apply$21 = (function(obj) {
+  return ((ScalaJS.is.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$20$$anonfun$apply$21(obj) || (obj === null)) ? obj : ScalaJS.throwClassCastException(obj, "japgolly.scalajs.react.ScalazReact$SzRExt_CompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt_CompStateAccessOps$$run$extension$2$$anonfun$apply$20$$anonfun$apply$21"))
 });
-ScalaJS.as.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$18$$anonfun$apply$19 = (function(obj) {
-  return ((ScalaJS.is.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$18$$anonfun$apply$19(obj) || (obj === null)) ? obj : ScalaJS.throwClassCastException(obj, "japgolly.scalajs.react.ScalazReact$SzRExt_CompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt_CompStateAccessOps$$run$extension$2$$anonfun$apply$18$$anonfun$apply$19"))
+ScalaJS.isArrayOf.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$20$$anonfun$apply$21 = (function(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$20$$anonfun$apply$21)))
 });
-ScalaJS.isArrayOf.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$18$$anonfun$apply$19 = (function(obj, depth) {
-  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$18$$anonfun$apply$19)))
+ScalaJS.asArrayOf.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$20$$anonfun$apply$21 = (function(obj, depth) {
+  return ((ScalaJS.isArrayOf.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$20$$anonfun$apply$21(obj, depth) || (obj === null)) ? obj : ScalaJS.throwArrayCastException(obj, "Ljapgolly.scalajs.react.ScalazReact$SzRExt_CompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt_CompStateAccessOps$$run$extension$2$$anonfun$apply$20$$anonfun$apply$21;", depth))
 });
-ScalaJS.asArrayOf.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$18$$anonfun$apply$19 = (function(obj, depth) {
-  return ((ScalaJS.isArrayOf.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$18$$anonfun$apply$19(obj, depth) || (obj === null)) ? obj : ScalaJS.throwArrayCastException(obj, "Ljapgolly.scalajs.react.ScalazReact$SzRExt_CompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt_CompStateAccessOps$$run$extension$2$$anonfun$apply$18$$anonfun$apply$19;", depth))
-});
-ScalaJS.d.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$18$$anonfun$apply$19 = new ScalaJS.ClassTypeData({
-  Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$18$$anonfun$apply$19: 0
-}, false, "japgolly.scalajs.react.ScalazReact$SzRExt_CompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt_CompStateAccessOps$$run$extension$2$$anonfun$apply$18$$anonfun$apply$19", ScalaJS.d.sr_AbstractFunction0, {
-  Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$18$$anonfun$apply$19: 1,
+ScalaJS.d.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$20$$anonfun$apply$21 = new ScalaJS.ClassTypeData({
+  Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$20$$anonfun$apply$21: 0
+}, false, "japgolly.scalajs.react.ScalazReact$SzRExt_CompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt_CompStateAccessOps$$run$extension$2$$anonfun$apply$20$$anonfun$apply$21", ScalaJS.d.sr_AbstractFunction0, {
+  Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$20$$anonfun$apply$21: 1,
   s_Serializable: 1,
   Ljava_io_Serializable: 1,
   sr_AbstractFunction0: 1,
   F0: 1,
   O: 1
 });
-ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$18$$anonfun$apply$19.prototype.$classData = ScalaJS.d.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$18$$anonfun$apply$19;
+ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$20$$anonfun$apply$21.prototype.$classData = ScalaJS.d.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$japgolly$scalajs$react$ScalazReact$SzRExt$undCompStateAccessOps$$run$extension$2$$anonfun$apply$20$$anonfun$apply$21;
 /** @constructor */
 ScalaJS.c.Ljapgolly_scalajs_react_ScalazReact$SzRExt$undCompStateAccessOps$$anonfun$runStateF$extension$1 = (function() {
   ScalaJS.c.sr_AbstractFunction4.call(this);
@@ -19938,11 +20588,11 @@ ScalaJS.c.Ljapgolly_scalajs_react_extras_router_Router$$anonfun$setEH$1.prototyp
   var e = v1;
   ScalaJS.m.Lscalaz_syntax_package().bind__Lscalaz_syntax_Syntaxes$bind$();
   ScalaJS.m.Lscalaz_syntax_package().bind__Lscalaz_syntax_Syntaxes$bind$();
-  var v = ScalaJS.m.Ljapgolly_scalajs_react_ScalazReact().preventDefaultIO$1.apply__O__O(e);
+  var v = ScalaJS.m.Ljapgolly_scalajs_react_ScalazReact().preventDefaultIO$2.apply__O__O(e);
   var F0 = ScalaJS.m.Lscalaz_effect_IO().ioMonadCatchIO$3;
   var v$1 = new ScalaJS.c.Lscalaz_syntax_BindOps().init___O__Lscalaz_Bind(v, F0).$$greater$greater__F0__O(new ScalaJS.c.sjsr_AnonFunction0().init___sjs_js_Function0((function(e$1) {
     return (function() {
-      return ScalaJS.as.Lscalaz_effect_IO(ScalaJS.m.Ljapgolly_scalajs_react_ScalazReact().stopPropagationIO$1.apply__O__O(e$1))
+      return ScalaJS.as.Lscalaz_effect_IO(ScalaJS.m.Ljapgolly_scalajs_react_ScalazReact().stopPropagationIO$2.apply__O__O(e$1))
     })
   })(e)));
   var F0$1 = ScalaJS.m.Lscalaz_effect_IO().ioMonadCatchIO$3;
@@ -20858,26 +21508,26 @@ ScalaJS.c.Ljapgolly_scalajs_react_vdom_Implicits.prototype.init___ = (function()
       return evidence$2$1$9.apply__O__O(a$2$9)
     })
   })(evidence$2$10)));
-  this.$$undreact$undstyleBoolean$2 = new ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$GenericStyle().init___F1(new ScalaJS.c.sjsr_AnonFunction1().init___sjs_js_Function1((function(x$5$2) {
-    return ScalaJS.objectToString(x$5$2)
+  this.$$undreact$undstyleBoolean$2 = new ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$GenericStyle().init___F1(new ScalaJS.c.sjsr_AnonFunction1().init___sjs_js_Function1((function(x$11$2) {
+    return ScalaJS.objectToString(x$11$2)
   })));
-  this.$$undreact$undstyleByte$2 = new ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$GenericStyle().init___F1(new ScalaJS.c.sjsr_AnonFunction1().init___sjs_js_Function1((function(x$5$2$1) {
-    return ScalaJS.objectToString(x$5$2$1)
+  this.$$undreact$undstyleByte$2 = new ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$GenericStyle().init___F1(new ScalaJS.c.sjsr_AnonFunction1().init___sjs_js_Function1((function(x$11$2$1) {
+    return ScalaJS.objectToString(x$11$2$1)
   })));
-  this.$$undreact$undstyleShort$2 = new ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$GenericStyle().init___F1(new ScalaJS.c.sjsr_AnonFunction1().init___sjs_js_Function1((function(x$5$2$2) {
-    return ScalaJS.objectToString(x$5$2$2)
+  this.$$undreact$undstyleShort$2 = new ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$GenericStyle().init___F1(new ScalaJS.c.sjsr_AnonFunction1().init___sjs_js_Function1((function(x$11$2$2) {
+    return ScalaJS.objectToString(x$11$2$2)
   })));
-  this.$$undreact$undstyleInt$2 = new ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$GenericStyle().init___F1(new ScalaJS.c.sjsr_AnonFunction1().init___sjs_js_Function1((function(x$5$2$3) {
-    return ScalaJS.objectToString(x$5$2$3)
+  this.$$undreact$undstyleInt$2 = new ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$GenericStyle().init___F1(new ScalaJS.c.sjsr_AnonFunction1().init___sjs_js_Function1((function(x$11$2$3) {
+    return ScalaJS.objectToString(x$11$2$3)
   })));
-  this.$$undreact$undstyleLong$2 = new ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$GenericStyle().init___F1(new ScalaJS.c.sjsr_AnonFunction1().init___sjs_js_Function1((function(x$5$2$4) {
-    return ScalaJS.objectToString(x$5$2$4)
+  this.$$undreact$undstyleLong$2 = new ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$GenericStyle().init___F1(new ScalaJS.c.sjsr_AnonFunction1().init___sjs_js_Function1((function(x$11$2$4) {
+    return ScalaJS.objectToString(x$11$2$4)
   })));
-  this.$$undreact$undstyleFloat$2 = new ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$GenericStyle().init___F1(new ScalaJS.c.sjsr_AnonFunction1().init___sjs_js_Function1((function(x$5$2$5) {
-    return ScalaJS.objectToString(x$5$2$5)
+  this.$$undreact$undstyleFloat$2 = new ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$GenericStyle().init___F1(new ScalaJS.c.sjsr_AnonFunction1().init___sjs_js_Function1((function(x$11$2$5) {
+    return ScalaJS.objectToString(x$11$2$5)
   })));
-  this.$$undreact$undstyleDouble$2 = new ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$GenericStyle().init___F1(new ScalaJS.c.sjsr_AnonFunction1().init___sjs_js_Function1((function(x$5$2$6) {
-    return ScalaJS.objectToString(x$5$2$6)
+  this.$$undreact$undstyleDouble$2 = new ScalaJS.c.Ljapgolly_scalajs_react_vdom_Scalatags$GenericStyle().init___F1(new ScalaJS.c.sjsr_AnonFunction1().init___sjs_js_Function1((function(x$11$2$6) {
+    return ScalaJS.objectToString(x$11$2$6)
   })));
   return this
 });
