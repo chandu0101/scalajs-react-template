@@ -10,7 +10,7 @@ import japgolly.scalajs.react.vdom.prefix_<^._
 
 object AppRouter {
 
-   trait AppPage
+  sealed trait AppPage
 
   case object Home extends AppPage
   case class Items(p : Item) extends AppPage
