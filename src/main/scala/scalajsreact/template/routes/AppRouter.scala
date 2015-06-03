@@ -1,15 +1,11 @@
 package scalajsreact.template.routes
 
-import com.chandu0101.scalajs.react.template.components.TopNav
-import Item.Info
 import japgolly.scalajs.react.extra.router2.{Resolution, RouterConfigDsl, RouterCtl, _}
 import japgolly.scalajs.react.vdom.prefix_<^._
 
-import scalajs.react.template.components.TopNav
 import scalajsreact.template.components.{TopNav, Footer}
 import scalajsreact.template.models.Menu
 import scalajsreact.template.pages.HomePage
-
 
 object AppRouter {
 
@@ -32,7 +28,7 @@ object AppRouter {
 
   val mainMenu = Vector(
    Menu("Home",Home),
-   Menu("Items",Items(Info))
+   Menu("Items",Items(Item.Info))
   )
 
 
