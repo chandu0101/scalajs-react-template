@@ -1,6 +1,5 @@
-package com.chandu0101.scalajs.react.template.components
+package scalajsreact.template.components
 
-import com.chandu0101.scalajs.react.template.routes.Item
 import japgolly.scalajs.react._
 import japgolly.scalajs.react.extra.Reusability
 import japgolly.scalajs.react.extra.router2.RouterCtl
@@ -9,6 +8,7 @@ import japgolly.scalajs.react.vdom.prefix_<^._
 import scala.scalajs.js.{Any, UndefOr}
 import scalacss.Defaults._
 import scalacss.ScalaCssReact._
+import scalajsreact.template.routes.Item
 
 object LeftNav {
 

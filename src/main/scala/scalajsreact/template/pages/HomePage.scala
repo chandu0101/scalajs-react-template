@@ -1,4 +1,4 @@
-package com.chandu0101.scalajs.react.template.pages
+package scalajsreact.template.pages
 
 import japgolly.scalajs.react._
 import japgolly.scalajs.react.vdom.prefix_<^._

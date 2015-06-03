@@ -1,10 +1,12 @@
-package com.chandu0101.scalajs.react.template.routes
+package scalajsreact.template.routes
 
-import com.chandu0101.scalajs.react.template.components.Footer
-import com.chandu0101.scalajs.react.template.components.items.{Item2Data, Item1Data, ItemsInfo}
-import com.chandu0101.scalajs.react.template.pages.ItemsPage
+import com.chandu0101.scalajs.react.template.components.items.ItemsInfo
 import japgolly.scalajs.react.ReactElement
 import japgolly.scalajs.react.extra.router2.RouterConfigDsl
+import scalajs.react.template.components.items.ItemsInfo
+import scalajsreact.template.components.Footer
+import scalajsreact.template.components.items.{ItemsInfo, Item1Data, Item2Data}
+import scalajsreact.template.pages.ItemsPage
 
 sealed abstract class Item(val title: String,
 val routerPath: String,
