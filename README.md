@@ -1,4 +1,4 @@
 scalajs-react-template
 ======================
 
-a template project for my needs
+Basic skeleton app for scalajs-react and scalacss
