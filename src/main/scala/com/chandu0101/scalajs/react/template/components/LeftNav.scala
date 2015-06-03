@@ -1,6 +1,6 @@
 package com.chandu0101.scalajs.react.template.components
 
-import com.chandu0101.scalajs.react.template.router.Item
+import com.chandu0101.scalajs.react.template.routes.Item
 import japgolly.scalajs.react._
 import japgolly.scalajs.react.extra.Reusability
 import japgolly.scalajs.react.extra.router2.RouterCtl

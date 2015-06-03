@@ -1,4 +1,4 @@
-package com.chandu0101.scalajs.react.template.router
+package com.chandu0101.scalajs.react.template.routes
 
 import com.chandu0101.scalajs.react.template.components.Footer
 import com.chandu0101.scalajs.react.template.components.items.{Item2Data, Item1Data, ItemsInfo}

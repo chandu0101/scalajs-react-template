@@ -1,9 +1,9 @@
-package com.chandu0101.scalajs.react.template.router
+package com.chandu0101.scalajs.react.template.routes
 
 import com.chandu0101.scalajs.react.template.components.{TopNav, Footer}
 import com.chandu0101.scalajs.react.template.models.Menu
 import com.chandu0101.scalajs.react.template.pages.HomePage
-import com.chandu0101.scalajs.react.template.router.Item.Info
+import com.chandu0101.scalajs.react.template.routes.Item.Info
 import japgolly.scalajs.react.extra.router2.{Resolution, RouterConfigDsl, RouterCtl, _}
 import japgolly.scalajs.react.vdom.prefix_<^._
 

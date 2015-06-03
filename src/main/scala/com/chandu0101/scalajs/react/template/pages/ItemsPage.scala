@@ -1,7 +1,7 @@
 package com.chandu0101.scalajs.react.template.pages
 
 import com.chandu0101.scalajs.react.template.components.LeftNav
-import com.chandu0101.scalajs.react.template.router.Item
+import com.chandu0101.scalajs.react.template.routes.Item
 import japgolly.scalajs.react._
 import japgolly.scalajs.react.extra.router2.RouterCtl
 import japgolly.scalajs.react.vdom.prefix_<^._

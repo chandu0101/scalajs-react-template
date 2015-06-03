@@ -1,7 +1,7 @@
 package com.chandu0101.scalajs.react.template
 
 import com.chandu0101.scalajs.react.template.css.AppCSS
-import com.chandu0101.scalajs.react.template.router.AppRouter
+import com.chandu0101.scalajs.react.template.routes.AppRouter
 import japgolly.scalajs.react.{React, _}
 import japgolly.scalajs.react.vdom.all._
 import org.scalajs.dom
