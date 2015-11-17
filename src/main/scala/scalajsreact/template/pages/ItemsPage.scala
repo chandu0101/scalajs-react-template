@@ -1,7 +1,7 @@
 package scalajsreact.template.pages
 
 import japgolly.scalajs.react._
-import japgolly.scalajs.react.extra.router2.RouterCtl
+import japgolly.scalajs.react.extra.router.RouterCtl
 import japgolly.scalajs.react.vdom.prefix_<^._
 import scala.scalajs.js
 import scalacss.Defaults._
@@ -24,12 +24,12 @@ object ItemsPage {
   }
 
   val component = ReactComponentB[Props]("ItemsPage")
-    .render(P => {
-     <.div(Style.container,
-      <.div(Style.nav, LeftNav(LeftNav.Props(Item.menu,P.selectedPage,P.ctrl))),
-      <.div(Style.content, P.selectedPage.render())
-     )
-  })
+    .render_P { P =>
+      <.div(Style.container,
+        <.div(Style.nav, LeftNav(LeftNav.Props(Item.menu,P.selectedPage,P.ctrl))),
+        <.div(Style.content, P.selectedPage.render())
+      )
+    }
     .build
 
   case class Props(selectedPage : Item,ctrl : RouterCtl[Item])

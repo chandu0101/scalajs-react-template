@@ -4,7 +4,7 @@ name := "scalajs-react-template"
 
 version := "1.0"
 
-scalaVersion := "2.11.6"
+scalaVersion := "2.11.7"
 
 
 // create launcher file ( its search for object extends JSApp , make sure there is only one file)
@@ -12,9 +12,11 @@ persistLauncher := true
 
 persistLauncher in Test := false
 
-val scalaJSReactVersion = "0.9.0"
+val scalaJSReactVersion = "0.10.1"
 
-val scalaCssVersion = "0.2.0"
+val scalaCssVersion = "0.3.1"
+
+val reactJSVersion = "0.14.2"
 
 
 libraryDependencies ++= Seq("com.github.japgolly.scalajs-react" %%% "core" % scalaJSReactVersion,
@@ -26,8 +28,10 @@ libraryDependencies ++= Seq("com.github.japgolly.scalajs-react" %%% "core" % sca
 // React itself
 //   (react-with-addons.js can be react.js, react.min.js, react-with-addons.min.js)
 //DOM, which doesn't exist by default in the Rhino runner. To make the DOM available in Rhino
-jsDependencies ++=  Seq(
-  "org.webjars" % "react" % "0.12.1" / "react-with-addons.js" minified "react-with-addons.min.js" commonJSName "React")
+jsDependencies ++= Seq(
+  "org.webjars.npm" % "react"     % reactJSVersion / "react-with-addons.js" commonJSName "React"    minified "react-with-addons.min.js",
+  "org.webjars.npm" % "react-dom" % reactJSVersion / "react-dom.js"         commonJSName "ReactDOM" minified "react-dom.min.js" dependsOn "react-with-addons.js"
+)
 
 
 // creates single js resource file for easy integration in html page

@@ -1,6 +1,6 @@
 package scalajsreact.template.routes
 
-import japgolly.scalajs.react.extra.router2.{Resolution, RouterConfigDsl, RouterCtl, _}
+import japgolly.scalajs.react.extra.router.{Resolution, RouterConfigDsl, RouterCtl, _}
 import japgolly.scalajs.react.vdom.prefix_<^._
 
 import scalajsreact.template.components.{TopNav, Footer}

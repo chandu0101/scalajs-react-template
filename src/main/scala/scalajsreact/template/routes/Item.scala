@@ -1,9 +1,8 @@
 package scalajsreact.template.routes
 
 import japgolly.scalajs.react.ReactElement
-import japgolly.scalajs.react.extra.router2.RouterConfigDsl
+import japgolly.scalajs.react.extra.router.RouterConfigDsl
 
-import scalajsreact.template.components.Footer
 import scalajsreact.template.components.items.{ItemsInfo, Item1Data, Item2Data}
 import scalajsreact.template.pages.ItemsPage
 
