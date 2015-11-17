@@ -8,8 +8,9 @@ import scala.scalajs.js.annotation.JSExport
 import scalajsreact.template.css.AppCSS
 import scalajsreact.template.routes.AppRouter
 
-
+@JSExport
 object ReactApp extends JSApp {
+
   @JSExport
   override def main(): Unit = {
     AppCSS.load
