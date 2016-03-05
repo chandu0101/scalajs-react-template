@@ -48,7 +48,7 @@ object TopNav {
       <.header(
         <.nav(
           <.ul(Style.navMenu,
-            P.menus.map(item => <.li(^.key := item.name, Style.menuItem(item.route == P.selectedPage), item.name, P.ctrl setOnClick item.route)))
+            P.menus.map(item => <.li(^.key := item.name, Style.menuItem(item.route.getClass == P.selectedPage.getClass), item.name, P.ctrl setOnClick item.route)))
         )
       )
     }
