@@ -58,3 +58,14 @@ artifactPath in (Compile, fastOptJS) := ((crossTarget in (Compile, fastOptJS)).v
 
 scalacOptions += "-feature"
 
+
+
+import com.lihaoyi.workbench.Plugin._
+
+workbenchSettings
+
+updateBrowsers <<= updateBrowsers.triggeredBy(fastOptJS in Compile)
+
+refreshBrowsers <<= refreshBrowsers.triggeredBy(fastOptJS in Compile)
+
+bootSnippet := "scalajsreact.template.ReactApp().main();"
