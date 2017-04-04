@@ -1,16 +1,19 @@
 package scalajsreact.template.components
 
 import japgolly.scalajs.react._
-import japgolly.scalajs.react.vdom.prefix_<^._
+import japgolly.scalajs.react.vdom.html_<^._
 
 object Footer {
 
-  val component = ReactComponentB.static("Footer",
-    <.footer(^.textAlign.center,
-    <.div(^.borderBottom := "1px solid grey", ^.padding := "0px"),
-    <.p(^.paddingTop := "5px", "Built using scalajs/scalajs-react/scalacss")
+  val component = ScalaComponent.builder
+    .static("Footer")(
+      <.footer(
+        ^.textAlign.center,
+        <.div(^.borderBottom := "1px solid grey", ^.padding := "0px"),
+        <.p(^.paddingTop := "5px", "Footer")
+      )
     )
-  ).buildU
+    .build
 
   def apply() = component()
 }
