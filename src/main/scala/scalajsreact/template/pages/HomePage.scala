@@ -18,7 +18,7 @@ object HomePage {
 
   val component =
     ScalaComponent.builder
-      .static("HomePage")(<.div(Style.content, "ScalaJS-React Template "))
+      .static("HomePage")(<.div(Style.content, "Scala js react template"))
       .build
 
   def apply() = component()

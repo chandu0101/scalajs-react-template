@@ -1,18 +1,18 @@
 package scalajsreact.template
 
-import scala.scalajs.js.JSApp
-import scala.scalajs.js.annotation.JSExport
+import japgolly.scalajs.react.ReactDOM
 import scalajsreact.template.css.AppCSS
 import scalajsreact.template.routes.AppRouter
-
 import org.scalajs.dom
 
-object ReactApp extends JSApp {
+import scala.scalajs.js.annotation.JSExport
+
+object ReactApp {
 
   @JSExport
-  override def main(): Unit = {
+  def main(args: Array[String]): Unit = {
     AppCSS.load
-    AppRouter.router().renderIntoDOM(dom.document.body)
+    AppRouter.router().renderIntoDOM(dom.document.getElementById("template-app"))
   }
 
 }
