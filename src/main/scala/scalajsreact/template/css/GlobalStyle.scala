@@ -1,6 +1,6 @@
 package scalajsreact.template.css
 
-import scalacss.Defaults._
+import scalacss.DevDefaults._
 
 object GlobalStyle extends StyleSheet.Inline {
 
