@@ -65,6 +65,8 @@ dependencyOverrides ++= Seq(
 )
 
 
-enablePlugins(WorkbenchPlugin)
-//workbenchDefaultRootObject := Some(("index.html", ""))  // (defaultRootObject, rootDirectory)
+//enablePlugins(WorkbenchPlugin)
+// Live Reloading: WorkbenchPlugin must NOT be enabled at the same time
+enablePlugins(WorkbenchSplicePlugin)
+workbenchCompression := true
 workbenchStartMode := WorkbenchStartModes.OnCompile
